@@ -8,9 +8,27 @@ Installation of required packages<br>
 apt-get install except
 ```
 
-Cloning of this github submodule
+<h2>Setup & Use</h2>
+
+Run these commands in the cloned repository to enable the scripts to run.
 ```shell
-git clone 
+chmod 755 run.sh
+chmod 755 test_script.sh
 ```
 
+Copy over the scripts to the directory w/prog2.asm
+```shell
+cp run.sh MP_WORKING_DIRECTORY
+cp test_script.sh MP_WORKING_DIRECTORY
+```
 
+To run the script:
+```shell
+cd MP_WORKING_DIRECTORY
+./test_script.sh
+```
+
+<h4>To modify test cases:</h4><br>
+1) Open test_script.sh in an editor<br>
+2) Modify one of values in prompts<br>
+3) Modify the corresponding value in answers to the answer of the prompt
