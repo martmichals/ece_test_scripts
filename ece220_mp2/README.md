@@ -32,3 +32,6 @@ cd MP_WORKING_DIRECTORY
 1) Open test_script.sh in an editor<br>
 2) Modify one of values in prompts<br>
 3) Modify the corresponding value in answers to the answer of the prompt
+
+<h2>DISCLAIMER + LIMITATIONS</h2>
+The scripts written only work to test valid expressions. Will not work to test program functionality for invalid expressions. I am by no means a course TA/Instructor. I just wrote these to ease the testing process for me and a couple of friends.  
