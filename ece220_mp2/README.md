@@ -27,6 +27,10 @@ To run the script:
 cd MP_WORKING_DIRECTORY
 ./test_script.sh
 ```
+IMPORTANT: Your prompt must end with ">" for these scripts to work. See below for example.
+```shell
+Enter a postfix expression >
+```
 
 <h4>To modify test cases:</h4><br>
 1) Open test_script.sh in an editor<br>
