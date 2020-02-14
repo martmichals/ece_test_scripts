@@ -5,15 +5,16 @@ A test script to test all required cases in MP 3. Make sure to have the exact pr
 
 <h2>Getting Started</h2>
 
-Cloning this submodule:<br>
+Cloning this repo:<br>
 ```shell
-git clone "https://github.com/martmichals/ece_test_scripts/edit/master/ece220_mp3"
+git clone "https://github.com/martmichals/ece_test_scripts/"
 ```
 
 <h2>Setup & Use</h2>
 
 Copy over the scripts to the directory w/mp3.c
 ```shell
+cd GITHUB_DIRECTORY_MP3_SCRIPTS
 cp pascal40 MP_WORKING_DIRECTORY
 cp test_script.sh MP_WORKING_DIRECTORY
 ```
