@@ -27,3 +27,5 @@ To run tests:
 ```shell
 ./test_script.sh
 ```
+<h2>DISCLAIMER</h2>
+I am by no means a course TA/Instructor. I wrote these to ease the testing process for me and a couple of friends.  
