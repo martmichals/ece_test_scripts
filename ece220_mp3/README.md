@@ -12,7 +12,8 @@ git clone "https://github.com/martmichals/ece_test_scripts/"
 
 <h2>Setup & Use</h2>
 
-Copy over the scripts to the directory w/mp3.c
+Copy over the scripts to the directory w/mp3.c<br>
+Replace GITHUB_DIR... and MP_WORK... with filepaths to the ece220_mp3 folder and your MP3 working directory, respectively.
 ```shell
 cd GITHUB_DIRECTORY_MP3_SCRIPTS
 cp pascal40 MP_WORKING_DIRECTORY
