@@ -14,13 +14,13 @@ git clone "https://github.com/martmichals/ece_test_scripts/"
 
 Navigate into the ece220_mp3 submodule:
 ```shell
-cd ece_test_scripts/ece220_mp3/"
+cd ece_test_scripts/ece220_mp3/
 ```
 
 Copy over the required files into your directory w/MP3:
 ```shell
-cp pascal40 ~/PATH_TO_YOUR_MP3_DIRECTORY"
-cp test_script.sh ~/PATH_TO_YOUR_MP3_DIRECTORY"
+cp pascal40 ~/PATH_TO_YOUR_MP3_DIRECTORY
+cp test_script.sh ~/PATH_TO_YOUR_MP3_DIRECTORY
 ```
 
 Navigate into your directory w/MP3:
