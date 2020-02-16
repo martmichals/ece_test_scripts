@@ -12,7 +12,7 @@ git clone "https://github.com/martmichals/ece_test_scripts/"
 
 <h2>Setup & Use</h2>
 
-Navigate into the ece220_mp3 repository:
+Navigate into the ece220_mp3 submodule:
 ```shell
 cd ece_test_scripts/ece220_mp3/"
 ```
