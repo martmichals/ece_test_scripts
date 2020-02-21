@@ -17,17 +17,12 @@ Navigate into the ece220_mp4 submodule:
 cd ece_test_scripts/ece220_mp4/
 ```
 
-Copy over the required files into your directory w/MP4:
+Copy over mp4.c into the repo:
 ```shell
-cp * ~/PATH_TO_YOUR_MP4_DIRECTORY
+cp ~/PATH_TO_YOUR_MP4_DIRECTORY/m4.c ./
 ```
 
-Navigate into your directory w/MP4:
-```shell
-cd ~/PATH_TO_YOUR_MP4_DIRECTORY
-```
-
-Run this command in the working directory of the MP to allow the script to run.
+Run this command to allow the script to run.
 ```shell
 chmod 755 test_script.sh
 ```
