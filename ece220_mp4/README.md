@@ -27,7 +27,7 @@ Run this command to allow the script to run.
 chmod 755 test_script.sh
 ```
 
-<h2>Running the script</h2>
+<h2>Running the Script</h2>
 
 The script has two modes. Random mode selects 250 random test cases:
 ```shell
