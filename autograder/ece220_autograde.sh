@@ -37,16 +37,16 @@ pip3 install --user pexpect
 # Setup the directory structure
 echo "Setting up directory structure..."
 cd /tmp
-mkdir -p ece_student_autograder
-cd ece_student_autograder
+mkdir -p ece220_student_autograder
+cd ece220_student_autograder
 
 # Clone test script repository
 echo "Updating test scripts..."
 if [ -d "ece_test_scripts" ]; then
 	cd ece_test_scripts
+	git fetch --all
 	gitlog="$(git status)"
 	if [[ ! $gitlog =~ "Your branch is up to date" ]]; then	
-		git fetch --all
 		git reset --hard origin/master
 	fi
 	cd ..
@@ -56,32 +56,26 @@ fi
 
 # Clone student repository
 echo "Updating your ECE 220 repository (Term=$term, NetID = $netid)..."
+echo "********"
+echo "In order to clone your ECE 220 Github repository, you must log in using your NetID"
+echo "********"
+
 
 if [ -d "$netid" ]; then
-	cd "$netid"
-	gitlog="$(git status)"
-	if [[ ! $gitlog =~ "Your branch is up to date" ]]; then
-		echo "********"
-		echo "In order to clone your ECE 220 Github repository, you must log in using your NetID"
-		echo "********"
-		git fetch --all
-		git reset --hard origin/master
-	fi
-else
-	echo "********"
-	echo "In order to clone your ECE 220 Github repository, you must log in using your NetID"
-	echo "********"
-	gitlog="$(git clone https://github-dev.cs.illinois.edu/"$term"/"$netid".git)"
-	cd "$netid"
+	# I couldn't find a good way to validate whether the supplied login
+	# credentials worked with git without deleting the user repository
+	# and re-cloning it every time. This means that the user must log
+	# in with their NetID every time they run this script.
+	rm -rf $netid
 fi
-
-gitlog="$(git status)"
-if [[ ! $gitlog =~ "Your branch is up to date" ]]; then
-	echo "There was an error fetching your repository! Aborting."
+git clone https://github-dev.cs.illinois.edu/"$term"/"$netid".git
+if [ ! -d "$netid" ]; then
+	echo "Error cloning your repository! Aborting."
 	exit
 fi
 
 version="$(python3 --version)"
 echo "Starting python grading script ($version)..."
+echo $netid > netid.txt
 python3 ece_test_scripts/autograder/ece220_autograde.py
 #pwd
