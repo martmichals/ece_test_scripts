@@ -65,7 +65,7 @@ while not exit:
 	for in_file in script['files']:
 		subprocess.Popen(['cp',repo_name + '/' + in_file, script['path'] + '/']).wait()
 	
-	cwd = s.getcwd()
+	cwd = os.getcwd()
 	os.chdir(script['path'])
 	for command in script['commands']:
 		subprocess.Popen(command, shell=True).wait()
