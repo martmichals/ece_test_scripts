@@ -65,10 +65,11 @@ while not exit:
 	for in_file in script['files']:
 		subprocess.Popen(['cp',repo_name + '/' + in_file, script['path'] + '/']).wait()
 	
+	cwd = s.getcwd()
 	os.chdir(script['path'])
-
 	for command in script['commands']:
 		subprocess.Popen(command, shell=True).wait()
+	os.chdir(cwd)
 
 	if not 'y' in input('Would you like to run another test [y/N]?').lower():
 		exit = True
