@@ -1,0 +1,10 @@
+{
+  "name": "MP3",
+  "class": "ece220",
+  "files": [
+    "mp3/mp3.c"
+  ],
+  "commands": [
+    "bash test_script.sh"
+  ]
+}

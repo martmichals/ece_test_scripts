@@ -26,10 +26,11 @@ exit = False
 
 while not exit:
 	selection = -1
+	print('********')
 	print('What do you want to grade?')
 	for i in range(len(scripts)):
 		print('%d) %s'%(i+1, scripts[i]['name']))
-
+	print('********')
 	while selection < 0 or selection >= len(scripts):
 		try:
 			selection = int(input('Selection: ')) - 1
@@ -42,15 +43,17 @@ while not exit:
 	print('Ececuting %s...'%(script['name']))
 
 	if 'options' in script:
+		print('********')
 		print('This script has multiple options.')
 		for i in range(len(script['options'])):
 			option = script['options'][i]
 			print('%d) %s - %s'%(i+1,option['display'],option['description']))
+		print('********')
 		selection = -1
 		while selection < 0 or selection >= len(script['options']):
 			try:
 				selection = int(input('Selection ')) - 1
-			except:
+			except (ValueError, TypeError):
 				pass
 			if selection < 0 or selection >= len(script['options']):
 				print('Invalid Selection!')
@@ -67,5 +70,5 @@ while not exit:
 	for command in script['commands']:
 		subprocess.Popen(command, shell=True).wait()
 
-	if not input('Would you like to run another test [y/N]?').lower().contains('y'):
+	if not 'y' in input('Would you like to run another test [y/N]?').lower():
 		exit = True
