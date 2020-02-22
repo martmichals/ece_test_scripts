@@ -76,6 +76,7 @@ fi
 
 version="$(python3 --version)"
 echo "Starting python grading script ($version)..."
-echo $netid > netid.txt
-python3 ece_test_scripts/autograder/ece220_autograde.py
+echo $netid > repo.txt
+echo "ece220" > class.txt
+python3 ece_test_scripts/autograder/autograde.py
 #pwd
