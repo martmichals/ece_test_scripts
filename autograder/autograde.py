@@ -52,7 +52,7 @@ while not exit:
 		selection = -1
 		while selection < 0 or selection >= len(script['options']):
 			try:
-				selection = int(input('Selection ')) - 1
+				selection = int(input('Selection: ')) - 1
 			except (ValueError, TypeError):
 				pass
 			if selection < 0 or selection >= len(script['options']):
@@ -71,5 +71,5 @@ while not exit:
 		subprocess.Popen(command, shell=True).wait()
 	os.chdir(cwd)
 
-	if not 'y' in input('Would you like to run another test [y/N]?').lower():
+	if not 'y' in input('Would you like to run another test [y/N]? ').lower():
 		exit = True

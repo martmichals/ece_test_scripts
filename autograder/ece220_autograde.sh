@@ -30,10 +30,6 @@ if [[ ! $REPLY =~ ^[Yy]$ ]]; then
 	exit
 fi 
 
-# Install required libraries
-echo "Installing prerequisites..."
-pip3 install --user pexpect
-
 # Setup the directory structure
 echo "Setting up directory structure..."
 cd /tmp
@@ -78,5 +74,5 @@ version="$(python3 --version)"
 echo "Starting python grading script ($version)..."
 echo $netid > repo.txt
 echo "ece220" > class.txt
+
 python3 ece_test_scripts/autograder/autograde.py
-#pwd
