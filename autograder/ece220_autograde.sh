@@ -21,7 +21,7 @@ Please read the following disclaimer and press \"y\" to indicate your agreement 
 
 THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-This is a student project, so passing test cases here does not garentee you will pass your test cases when the assignment is graded. This script was written to run on EWS lab machines, and for it to run correctly you must have pushed your code to your ECE 220 Git repository.
+This is a student project, so passing test cases here does not guarantee you will pass your test cases when the assignment is graded. This script was written to run on EWS lab machines, and for it to run correctly you must have pushed your code to your ECE 220 Git repository.
 """
 read -p "Do you agree to the disclaimer above [y/N]: " -n 1 -r
 echo
