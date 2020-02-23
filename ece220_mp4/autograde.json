@@ -1,0 +1,23 @@
+{
+  "name": "MP4",
+  "class": "ece220",
+  "files": [
+    "mp4/mp4.c"
+  ],
+  "commands": [
+    "gcc -Wall -g -std=c99 mp4.c -o mp4",
+    "bash test_script.sh {option}"
+  ],
+  "options": [
+    {
+      "display": "Random",
+      "description": "Choose 25 random test cases",
+      "option": "random"
+    },
+    {
+      "display": "All",
+      "description": "Run all possible test cases (takes ~3 mins)",
+      "option": "all"
+    }
+  ]
+}
