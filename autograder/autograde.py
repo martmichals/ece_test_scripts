@@ -40,7 +40,7 @@ while not exit:
 			print('Invalid Selection!')
 
 	script = scripts[selection]
-	print('Ececuting %s...'%(script['name']))
+	print('Executing %s...'%(script['name']))
 
 	if 'options' in script:
 		print('********')
