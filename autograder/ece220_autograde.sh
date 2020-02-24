@@ -47,7 +47,7 @@ if [ -d "ece_test_scripts" ]; then
 	fi
 	cd ..
 else
-	git clone https://github.com/CaptnSisko/ece_test_scripts # TODO update url after merge
+	git clone https://github.com/martmichals/ece_test_scripts # TODO update url after merge
 fi
 
 # Clone student repository
