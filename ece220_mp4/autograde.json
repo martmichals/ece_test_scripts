@@ -11,7 +11,7 @@
   "options": [
     {
       "display": "Random",
-      "description": "Choose 25 random test cases",
+      "description": "Choose 250 random test cases",
       "option": "random"
     },
     {
