@@ -1,4 +1,4 @@
-# Using this test script
+# MP5 Test Script
 The easy way to use this test script is to use the autograder:
 `bash <(curl -sL https://ece220.autograde.twong.dev)`
 
