@@ -8,6 +8,7 @@
   ],
   "commands": [
     "gcc -g -std=c99 -Wall -Werror main.c prog5.c -o mp5",
+    "pip3 install --user pexpect",
     "python3 mp5_test.py"
   ]
 }
