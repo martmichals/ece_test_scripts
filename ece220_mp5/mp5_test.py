@@ -84,6 +84,7 @@ def calc_match(guess, test, sol):
 			if test[i] != None and sol[j] != None and test[i] == sol[j]:
 				misplaced += 1
 				sol[j] = None
+				test[i] = None
 	return guess_str(guess, perfect, misplaced), True if perfect==4 else False
 
 def check_random_inputs():
