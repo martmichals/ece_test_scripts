@@ -1,0 +1,13 @@
+{
+  "name": "MP4",
+  "class": "ece220",
+  "files": [
+    "mp5/main.c",
+    "mp5/prog5.c",
+    "mp5/prog5.h"
+  ],
+  "commands": [
+    "gcc -g -std=c99 -Wall -Werror main.c prog5.c -o mp5",
+    "python3 mp5_test.py"
+  ]
+}
