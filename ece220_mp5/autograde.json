@@ -1,5 +1,5 @@
 {
-  "name": "MP5",
+  "name": "MP5 (Trevor's Script)",
   "class": "ece220",
   "files": [
     "mp5/main.c",
@@ -9,6 +9,28 @@
   "commands": [
     "gcc -g -std=c99 -Wall -Werror main.c prog5.c -o mp5",
     "pip3 install --user pexpect",
-    "python3 mp5_test.py"
+    "python3 mp5_test.py {option}"
+  ],
+  "options": [
+    {
+      "display": "All",
+      "description": "Run all portions of the test script (takes ~5 minutes)",
+      "option": "all"
+    },
+    {
+      "display": "Solution Generation",
+      "description": "Test whether the seed generation is correct with 200 random test cases",
+      "option": "solution_generation"
+    },
+    {
+      "display": "Malformed Inputs",
+      "description": "Test 200 randomly generated malformed guesses",
+      "option": "malformed_input"
+    },
+    {
+      "display": "Random inputs",
+      "description": "Test 200 randomly generated guesses to check game logic",
+      "option": "random_inputs"
+    }
   ]
 }
