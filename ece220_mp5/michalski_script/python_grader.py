@@ -55,18 +55,24 @@ for g,filename in enumerate(fullpath):
             for linenum,text in enumerate(parsed_output):
                 if text != parsed_proper[linenum]:
                     print('***************************************************')
-                    if linenum == 0 or (linenum%4) == 0:
-                        print('There is a mismatch in the printout of your program!')
-                        print('Your output: {}'.format(text))
-                        print('Proper output: {}'.format(parsed_proper[linenum]))
-                    if linenum == 2 or ((linenum-2)%4) == 0:
-                        print('There is a mismatch in the variables of your make_guess function!')
-                        print('Your return value: {}'.format(text))
-                        print('Proper return value: {}'.format(parsed_proper[linenum]))
-                    if linenum == 3 or ((linenum-3)%4) == 0:
-                        print('There is a mismatch in the variables of your make_guess function!')
-                        print('Your max_score variable: {}'.format(text))
-                        print('Proper max_score variable: {}'.format(parsed_proper[linenum]))
+
+                    if len(parsed_proper[linenum]) > 6:
+                        print('Here is the expected output: ')
+                        print('{}'.format(parsed_proper[linenum]))
+                        print('Your output: ') 
+                        print('{}'.format(text))
+                    else:
+                        if len(parsed_proper[linenum - 1]) > 4: 
+                            print('Here is the proper return value: ')
+                            print('{}'.format(parsed_proper[linenum]))
+                            print('Your return value: ') 
+                            print('{}'.format(text))
+                        else:
+                            print('Here is the proper max_score value: ')
+                            print('{}'.format(parsed_proper[linenum]))
+                            print('Your max_score value: ') 
+                            print('{}'.format(text))
+                            
 
                     print('\n')
                     print('Conditions that caused this failure:')
@@ -74,17 +80,18 @@ for g,filename in enumerate(fullpath):
                     print('Guess Sequence: {}'.format(guess_sequence))
                     print('***************************************************')
 
+            print('\n\n')
             print('HALTING TESTS')
             print('Program passed {} test cases'.format(case_num))
             sys.exit()
 
             
-   
     if seed_passed:
         print('Seed number {}, passed'.format(seed_number))
         case_num+=1
 
     tester_file.close()
 
+print('\n\n')
 print('CONGRATULATIONS, YOU PASSED ALL THE TEST CASES')
 
