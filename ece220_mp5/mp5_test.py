@@ -8,6 +8,7 @@ print('Loading solutions...')
 sols = json.loads(open('sols.json').read())
 len_sols = len(sols.keys())
 
+
 def guess_str(guess, perfect, misplaced):
 	return 'With guess %d, you got %d perfect matches and %d misplaced matches.'%(guess, perfect, misplaced)
 
@@ -64,7 +65,7 @@ def check_sol_generation():
 		instance = create_instance(seed)
 		err = '\nTesting random seed (seed=%s)\n'%(seed)
 		err += 'Input: "' + ' '.join(sols[seed]) + '"\n'
-		err += 'Solution: "' + ' '.join(sols[seed])
+		err += 'Solution: "' + ' '.join(sols[seed]) + '"'
 		check_output(instance, 'Enter your guess: ')
 		instance.sendline(' '.join(sols[seed]))
 		check_output(instance, guess_str(1, 4, 0), err)
@@ -108,11 +109,30 @@ def check_random_inputs():
 			check_output(instance, output, err)
 			guess += 1
 
-print('Testing malformed inputs...')
-check_malformed_inputs()
-print('Testing solution generation...')
-check_sol_generation()
-print('Testing random inputs...')
-check_random_inputs()
-timetaken = start - time.time()
+option = 'all'
+if len(sys.argv) > 1:
+	option = sys.argv[1]
+if option == 'all':
+	print('Testing malformed inputs...')
+	check_malformed_inputs()
+	print('Testing solution generation...')
+	check_sol_generation()
+	print('Testing random inputs...')
+	check_random_inputs()
+elif option == 'malformed_input':
+	print('Testing malformed inputs...')
+	check_malformed_inputs()
+elif option == 'solution_generation':
+	print('Testing solution generation...')
+	check_sol_generation()
+elif option == 'random_inputs':
+	print('Testing random inputs...')
+	check_random_inputs()
+else:
+	print('Invalid option: ' + option)
+	print('Valid options are all, malformed_input,solution_generation, and random_inputs')
+	sys.exit(0)
+
+timetaken = time.time() - start
 print('Test cases passed! Took %d minutes and %d seconds'%(timetaken//60, timetaken%60))
+
