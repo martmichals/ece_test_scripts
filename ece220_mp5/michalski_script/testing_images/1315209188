@@ -24,8 +24,8 @@ Your score is 1000 and current max score is 2000.
 Variables
 1
 2000
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -96,31 +96,31 @@ Your score is 0 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 1 perfect matches and 3 misplaced matches.
-Your score is 1300 and current max score is 1300.
+With guess 6, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
 Variables
 1
-1300
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1300.
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
 Variables
 1
-1300
+1200
 With guess 8, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1300.
+Your score is 0 and current max score is 1200.
 Variables
 1
-1300
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
+1200
 **************************************
 R2-D2 Padme Snoke Dooku
 Lando Dooku Jabba Padme
@@ -138,8 +138,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 2, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 1000.
 Variables
 1
 1000
@@ -201,31 +201,32 @@ Your score is 0 and current max score is 0.
 Variables
 1
 0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
 Variables
 1
-200
-With guess 3, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 400.
+100
+With guess 3, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
 Variables
 1
-400
+300
 With guess 4, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 400.
+Your score is 0 and current max score is 300.
 Variables
 1
-400
+300
 With guess 5, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -239,8 +240,8 @@ Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1200.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
 1200
@@ -276,8 +277,8 @@ Your score is 1000 and current max score is 2000.
 Variables
 1
 2000
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -348,31 +349,31 @@ Your score is 0 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 1 perfect matches and 3 misplaced matches.
-Your score is 1300 and current max score is 1300.
+With guess 6, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
 Variables
 1
-1300
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1300.
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
 Variables
 1
-1300
+1200
 With guess 8, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1300.
+Your score is 0 and current max score is 1200.
 Variables
 1
-1300
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
+1200
 **************************************
 R2-D2 Padme Snoke Dooku
 Lando Dooku Jabba Padme
@@ -390,8 +391,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 2, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 1000.
 Variables
 1
 1000
@@ -453,31 +454,32 @@ Your score is 0 and current max score is 0.
 Variables
 1
 0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
 Variables
 1
-200
-With guess 3, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 400.
+100
+With guess 3, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
 Variables
 1
-400
+300
 With guess 4, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 400.
+Your score is 0 and current max score is 300.
 Variables
 1
-400
+300
 With guess 5, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -491,8 +493,8 @@ Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1200.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
 1200
@@ -528,8 +530,8 @@ Your score is 1000 and current max score is 2000.
 Variables
 1
 2000
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -600,31 +602,31 @@ Your score is 0 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 1 perfect matches and 3 misplaced matches.
-Your score is 1300 and current max score is 1300.
+With guess 6, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
 Variables
 1
-1300
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1300.
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
 Variables
 1
-1300
+1200
 With guess 8, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1300.
+Your score is 0 and current max score is 1200.
 Variables
 1
-1300
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
+1200
 **************************************
 R2-D2 Padme Snoke Dooku
 Lando Dooku Jabba Padme
@@ -642,8 +644,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 2, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 1000.
 Variables
 1
 1000
@@ -705,31 +707,32 @@ Your score is 0 and current max score is 0.
 Variables
 1
 0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
 Variables
 1
-200
-With guess 3, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 400.
+100
+With guess 3, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
 Variables
 1
-400
+300
 With guess 4, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 400.
+Your score is 0 and current max score is 300.
 Variables
 1
-400
+300
 With guess 5, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -743,8 +746,8 @@ Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1200.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
 1200
@@ -780,8 +783,8 @@ Your score is 1000 and current max score is 2000.
 Variables
 1
 2000
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -852,31 +855,31 @@ Your score is 0 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 1 perfect matches and 3 misplaced matches.
-Your score is 1300 and current max score is 1300.
+With guess 6, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
 Variables
 1
-1300
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1300.
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
 Variables
 1
-1300
+1200
 With guess 8, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1300.
+Your score is 0 and current max score is 1200.
 Variables
 1
-1300
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
+1200
 **************************************
 R2-D2 Padme Snoke Dooku
 Lando Dooku Jabba Padme
@@ -894,8 +897,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 2, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 1000.
 Variables
 1
 1000
@@ -957,31 +960,32 @@ Your score is 0 and current max score is 0.
 Variables
 1
 0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
 Variables
 1
-200
-With guess 3, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 400.
+100
+With guess 3, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
 Variables
 1
-400
+300
 With guess 4, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 400.
+Your score is 0 and current max score is 300.
 Variables
 1
-400
+300
 With guess 5, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -995,8 +999,8 @@ Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1200.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
 1200
@@ -1032,8 +1036,8 @@ Your score is 1000 and current max score is 2000.
 Variables
 1
 2000
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -1104,31 +1108,31 @@ Your score is 0 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 1 perfect matches and 3 misplaced matches.
-Your score is 1300 and current max score is 1300.
+With guess 6, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
 Variables
 1
-1300
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1300.
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
 Variables
 1
-1300
+1200
 With guess 8, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1300.
+Your score is 0 and current max score is 1200.
 Variables
 1
-1300
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1300.
+1200
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1300
+1200
 **************************************
 R2-D2 Padme Snoke Dooku
 Lando Dooku Jabba Padme
@@ -1146,8 +1150,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 2, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 1000.
 Variables
 1
 1000
@@ -1209,31 +1213,32 @@ Your score is 0 and current max score is 0.
 Variables
 1
 0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
 Variables
 1
-200
-With guess 3, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 400.
+100
+With guess 3, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
 Variables
 1
-400
+300
 With guess 4, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 400.
+Your score is 0 and current max score is 300.
 Variables
 1
-400
+300
 With guess 5, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -1247,8 +1252,8 @@ Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1200.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
 1200

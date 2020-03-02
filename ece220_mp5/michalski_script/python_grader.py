@@ -87,7 +87,15 @@ for g,filename in enumerate(fullpath):
 
             
     if seed_passed:
-        print('Seed number {}, passed'.format(seed_number))
+        length = len(str(seed_number))
+        pass_var = ''
+
+        while length < 10:
+            pass_var = '{} '.format(pass_var)
+            length+=1
+        pass_var = '{} passed'.format(pass_var)
+
+        print('Seed number {} {}'.format(seed_number, pass_var))
         case_num+=1
 
     tester_file.close()

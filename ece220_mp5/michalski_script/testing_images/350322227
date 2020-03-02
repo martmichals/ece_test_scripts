@@ -154,6 +154,7 @@ Your score is 100 and current max score is 1000.
 Variables
 1
 1000
+make_guess: invalid guess
 Variables
 0
 1000
@@ -245,6 +246,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -363,6 +365,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -580,6 +583,7 @@ Jabba C-3PO Jabba C-3PO
 Padme Snoke Padme R2-D2
 C-3PO Dooku R2-D2 Lando
 --
+make_guess: invalid guess
 Variables
 0
 -1
@@ -1038,6 +1042,7 @@ Your score is 100 and current max score is 200.
 Variables
 1
 200
+make_guess: invalid guess
 Variables
 0
 200
@@ -1146,6 +1151,7 @@ Padme Vader Snoke Padme
 Vader R2-D2 Dooku Padme
 Jabba Dooku Snoke Vader
 --
+make_guess: invalid guess
 Variables
 0
 -1

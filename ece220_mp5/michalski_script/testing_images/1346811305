@@ -655,6 +655,7 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
+make_guess: invalid guess
 Variables
 0
 1000
@@ -716,6 +717,7 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
+make_guess: invalid guess
 Variables
 0
 1000
@@ -849,6 +851,7 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
+make_guess: invalid guess
 Variables
 0
 1000
@@ -1205,6 +1208,7 @@ Your score is 0 and current max score is 0.
 Variables
 1
 0
+make_guess: invalid guess
 Variables
 0
 0

@@ -168,8 +168,8 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
-With guess 8, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
 Variables
 1
 1000
@@ -226,6 +226,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -420,8 +421,8 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
-With guess 8, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
 Variables
 1
 1000
@@ -478,6 +479,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -672,8 +674,8 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
-With guess 8, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
 Variables
 1
 1000
@@ -730,6 +732,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -924,8 +927,8 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
-With guess 8, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
 Variables
 1
 1000
@@ -982,6 +985,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -1176,8 +1180,8 @@ Your score is 0 and current max score is 1000.
 Variables
 1
 1000
-With guess 8, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 1000.
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
 Variables
 1
 1000
@@ -1234,6 +1238,7 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000

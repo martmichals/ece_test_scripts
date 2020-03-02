@@ -340,6 +340,7 @@ Your score is 200 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -582,6 +583,7 @@ Your score is 100 and current max score is 300.
 Variables
 1
 300
+make_guess: invalid guess
 Variables
 0
 300
@@ -683,6 +685,7 @@ Your score is 0 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -811,6 +814,7 @@ Your score is 100 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000

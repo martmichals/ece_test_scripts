@@ -19,8 +19,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1000.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
 1000
@@ -133,18 +133,18 @@ Padme C-3PO Lando Padme
 Padme Padme Vader Vader
 C-3PO C-3PO C-3PO Snoke
 --
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
+With guess 1, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-300
+200
 With guess 2, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -153,8 +153,8 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -226,6 +226,7 @@ Your score is 100 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -271,8 +272,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1000.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
 1000
@@ -385,18 +386,18 @@ Padme C-3PO Lando Padme
 Padme Padme Vader Vader
 C-3PO C-3PO C-3PO Snoke
 --
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
+With guess 1, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-300
+200
 With guess 2, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -405,8 +406,8 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -478,6 +479,7 @@ Your score is 100 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -523,8 +525,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1000.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
 1000
@@ -637,18 +639,18 @@ Padme C-3PO Lando Padme
 Padme Padme Vader Vader
 C-3PO C-3PO C-3PO Snoke
 --
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
+With guess 1, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-300
+200
 With guess 2, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -657,8 +659,8 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -730,6 +732,7 @@ Your score is 100 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -775,8 +778,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1000.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
 1000
@@ -889,18 +892,18 @@ Padme C-3PO Lando Padme
 Padme Padme Vader Vader
 C-3PO C-3PO C-3PO Snoke
 --
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
+With guess 1, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-300
+200
 With guess 2, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -909,8 +912,8 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -982,6 +985,7 @@ Your score is 100 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -1027,8 +1031,8 @@ Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1000.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
 1000
@@ -1141,18 +1145,18 @@ Padme C-3PO Lando Padme
 Padme Padme Vader Vader
 C-3PO C-3PO C-3PO Snoke
 --
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
+With guess 1, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-300
+200
 With guess 2, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -1161,8 +1165,8 @@ Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -1234,6 +1238,7 @@ Your score is 100 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200

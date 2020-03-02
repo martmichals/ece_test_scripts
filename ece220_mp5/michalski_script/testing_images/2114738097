@@ -996,6 +996,7 @@ Jabba C-3PO Padme R2-D2
 R2-D2 Dooku Vader Jabba
 Vader Jabba Vader Vader
 --
+make_guess: invalid guess
 Variables
 0
 -1
@@ -1062,6 +1063,7 @@ Vader Jabba C-3PO R2-D2
 Vader Padme C-3PO Padme
 Padme Lando Dooku Lando
 --
+make_guess: invalid guess
 Variables
 0
 -1
@@ -1190,6 +1192,7 @@ Padme Vader Snoke Padme
 Vader R2-D2 Dooku Padme
 Jabba Dooku Snoke Vader
 --
+make_guess: invalid guess
 Variables
 0
 -1

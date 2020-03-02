@@ -29,8 +29,8 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -49,8 +49,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -111,8 +111,8 @@ Your score is 2200 and current max score is 2200.
 Variables
 1
 2200
-With guess 9, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2200.
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2200.
 Variables
 1
 2200
@@ -158,8 +158,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
 Variables
 1
 1100
@@ -221,11 +221,12 @@ Your score is 0 and current max score is 2100.
 Variables
 1
 2100
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2100.
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
 Variables
 1
 2100
+make_guess: invalid guess
 Variables
 0
 2100
@@ -281,8 +282,8 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -301,8 +302,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -363,8 +364,8 @@ Your score is 2200 and current max score is 2200.
 Variables
 1
 2200
-With guess 9, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2200.
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2200.
 Variables
 1
 2200
@@ -410,8 +411,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
 Variables
 1
 1100
@@ -473,11 +474,12 @@ Your score is 0 and current max score is 2100.
 Variables
 1
 2100
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2100.
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
 Variables
 1
 2100
+make_guess: invalid guess
 Variables
 0
 2100
@@ -533,8 +535,8 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -553,8 +555,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -615,8 +617,8 @@ Your score is 2200 and current max score is 2200.
 Variables
 1
 2200
-With guess 9, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2200.
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2200.
 Variables
 1
 2200
@@ -662,8 +664,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
 Variables
 1
 1100
@@ -725,11 +727,12 @@ Your score is 0 and current max score is 2100.
 Variables
 1
 2100
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2100.
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
 Variables
 1
 2100
+make_guess: invalid guess
 Variables
 0
 2100
@@ -785,8 +788,8 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -805,8 +808,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -867,8 +870,8 @@ Your score is 2200 and current max score is 2200.
 Variables
 1
 2200
-With guess 9, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2200.
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2200.
 Variables
 1
 2200
@@ -914,8 +917,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
 Variables
 1
 1100
@@ -977,11 +980,12 @@ Your score is 0 and current max score is 2100.
 Variables
 1
 2100
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2100.
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
 Variables
 1
 2100
+make_guess: invalid guess
 Variables
 0
 2100
@@ -1037,8 +1041,8 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -1057,8 +1061,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
 1100
@@ -1119,8 +1123,8 @@ Your score is 2200 and current max score is 2200.
 Variables
 1
 2200
-With guess 9, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2200.
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2200.
 Variables
 1
 2200
@@ -1166,8 +1170,8 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
 Variables
 1
 1100
@@ -1229,11 +1233,12 @@ Your score is 0 and current max score is 2100.
 Variables
 1
 2100
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2100.
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
 Variables
 1
 2100
+make_guess: invalid guess
 Variables
 0
 2100

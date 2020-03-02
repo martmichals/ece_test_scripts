@@ -1,14 +1,81 @@
-Dooku Dooku C-3PO Lando
-Padme R2-D2 Snoke Padme
-Padme C-3PO Dooku Snoke
-Jabba Dooku C-3PO C-3PO
-Snoke Vader Jabba Lando
-Padme Snoke R2-D2 R2-D2
-Dooku Snoke C-3PO Vader
-Jabba Vader Snoke C-3PO
-C-3PO Dooku Vader Lando
-Padme Jabba Padme Jabba
+C-3PO Snoke R2-D2 Snoke
+Jabba Dooku Snoke Vader
+C-3PO Jabba Lando C-3PO
+Lando Vader Snoke Jabba
+R2-D2 Dooku Jabba Dooku
+Padme Lando Snoke R2-D2
+Snoke Jabba Dooku Vader
+Vader C-3PO Vader Dooku
+Vader R2-D2 Jabba C-3PO
+Vader R2-D2 Vader Snoke
 --
+With guess 1, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
+Variables
+1
+1200
+With guess 2, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
+Variables
+1
+1200
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
+Variables
+1
+1200
+With guess 4, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
+Variables
+1
+1200
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1200.
+Variables
+1
+1200
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
+Variables
+1
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
+Variables
+1
+1200
+With guess 8, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2000.
+Variables
+1
+2000
+With guess 10, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+**************************************
+zokherylcup
+Jabba Dooku Lando C-3PO
+Vader Lando Snoke Dooku
+Jabba Jabba Padme Dooku
+Jabba Jabba Padme Jabba
+Padme Dooku R2-D2 Dooku
+Vader Padme Padme Padme
+Lando Vader Lando C-3PO
+Padme Vader Snoke Padme
+Vader R2-D2 Dooku Padme
+Jabba Dooku Snoke Vader
+--
+make_guess: invalid guess
+Variables
+0
+-1
 With guess 1, you got 0 perfect matches and 1 misplaced matches.
 Your score is 100 and current max score is 100.
 Variables
@@ -19,185 +86,57 @@ Your score is 200 and current max score is 200.
 Variables
 1
 200
-With guess 3, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 4, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
-Variables
-1
-2000
-With guess 5, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
-With guess 7, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 2000.
-Variables
-1
-2000
-With guess 9, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-With guess 10, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2000.
-Variables
-1
-2000
-**************************************
-Jabba Jabba Jabba R2-D2
-Padme C-3PO C-3PO R2-D2
-R2-D2 Padme Jabba Lando
-Snoke R2-D2 R2-D2 C-3PO
-Jabba Jabba Jabba Jabba
-Jabba R2-D2 Lando Padme
-Snoke R2-D2 R2-D2 Padme
-Lando Vader Vader Padme
-Snoke R2-D2 Padme Padme
-Padme Padme Snoke Dooku
---
-With guess 1, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 0.
-Variables
-1
-0
-With guess 2, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1000.
-Variables
-1
-1000
-With guess 3, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1000.
-Variables
-1
-1000
-With guess 4, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 5, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
-Variables
-1
-1100
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
-Variables
-1
-1100
-With guess 7, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1100.
-Variables
-1
-1100
-With guess 8, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1100.
-Variables
-1
-1100
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1100.
-Variables
-1
-1100
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
-Variables
-1
-1100
-**************************************
-R2-D2 Dooku Lando Dooku
-Dooku Padme Snoke Padme
-tioejmyw
-Dooku Lando Lando Padme
-Vader Jabba Lando Snoke
-Dooku Padme Jabba C-3PO
-Padme R2-D2 Jabba Jabba
-C-3PO C-3PO Vader C-3PO
-R2-D2 Vader C-3PO C-3PO
-Snoke R2-D2 C-3PO Jabba
-C-3PO Lando Snoke Padme
---
-With guess 1, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 0.
-Variables
-1
-0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
-Variables
-1
-200
-Variables
-0
-200
 With guess 3, you got 0 perfect matches and 0 misplaced matches.
 Your score is 0 and current max score is 200.
 Variables
 1
 200
-With guess 4, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
+With guess 4, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 200.
 Variables
 1
-1100
-With guess 5, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 1100.
+200
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 200.
 Variables
 1
-1100
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
+200
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 200.
 Variables
 1
-1100
-With guess 7, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
+200
+With guess 7, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-2000
+200
 With guess 8, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
+Your score is 200 and current max score is 200.
 Variables
 1
-2000
-With guess 9, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
+200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 200.
 Variables
 1
-2000
-With guess 10, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2000.
+200
+With guess 10, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
 Variables
 1
-2000
+200
 **************************************
-Vader Dooku Padme Jabba
-R2-D2 Lando C-3PO Dooku
-Vader Jabba Dooku Vader
-Lando Padme Snoke Padme
-Padme Vader Vader Snoke
-Dooku C-3PO Jabba Snoke
-C-3PO Snoke R2-D2 Snoke
-R2-D2 C-3PO Snoke Vader
-Jabba Padme Jabba Padme
-Snoke Vader Dooku Padme
+Dooku Snoke Padme Dooku
+Lando Dooku C-3PO C-3PO
+Dooku R2-D2 Snoke Vader
+Padme Lando Vader Snoke
+Snoke Lando Lando Snoke
+Dooku Vader Jabba Padme
+Snoke Padme Jabba C-3PO
+Dooku Lando Dooku R2-D2
+Lando Jabba Dooku Vader
+C-3PO Jabba Vader C-3PO
 --
 With guess 1, you got 0 perfect matches and 1 misplaced matches.
 Your score is 100 and current max score is 100.
@@ -209,81 +148,18 @@ Your score is 100 and current max score is 100.
 Variables
 1
 100
-With guess 3, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 100.
-Variables
-1
-100
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
+With guess 3, you got 0 perfect matches and 2 misplaced matches.
 Your score is 200 and current max score is 200.
 Variables
 1
 200
+With guess 4, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
 With guess 5, you got 2 perfect matches and 0 misplaced matches.
 Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 6, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 1 perfect matches and 3 misplaced matches.
-Your score is 1300 and current max score is 2000.
-Variables
-1
-2000
-With guess 9, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2000.
-Variables
-1
-2000
-With guess 10, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-**************************************
-Padme Lando Padme Dooku
-R2-D2 Snoke Snoke Lando
-Lando C-3PO R2-D2 Snoke
-Lando Dooku Jabba Snoke
-Vader Vader Padme R2-D2
-Lando Lando C-3PO Jabba
-jvngliotybrduchzke
-Lando Lando Vader Dooku
-Vader C-3PO R2-D2 C-3PO
-Dooku C-3PO Dooku C-3PO
-Dooku Vader Padme Snoke
---
-With guess 1, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 0.
-Variables
-1
-0
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
-Variables
-1
-200
-With guess 3, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 4, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 5, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -292,21 +168,18 @@ Your score is 100 and current max score is 2000.
 Variables
 1
 2000
-Variables
-0
-2000
-With guess 7, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 1 perfect matches and 1 misplaced matches.
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 2000.
 Variables
 1
 2000
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
+With guess 8, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2000.
+Variables
+1
+2000
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -316,16 +189,279 @@ Variables
 1
 2000
 **************************************
-R2-D2 Padme Vader Vader
-R2-D2 Vader R2-D2 R2-D2
-Lando Snoke C-3PO Lando
-Snoke Lando Snoke Dooku
-Snoke Vader Lando Padme
+Jabba Dooku Padme Padme
+Vader Lando Snoke C-3PO
+Snoke Lando C-3PO Jabba
+Vader C-3PO Dooku R2-D2
+Lando Jabba Jabba Dooku
+Jabba Vader Padme Jabba
+Snoke R2-D2 Snoke Snoke
+Jabba Lando Jabba Jabba
+Padme Jabba Jabba R2-D2
+Jabba Dooku Dooku Jabba
+--
+With guess 1, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 0.
+Variables
+1
+0
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
+Variables
+1
+300
+With guess 3, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 4, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1100.
+Variables
+1
+1100
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+With guess 8, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2000.
+Variables
+1
+2000
+With guess 9, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2000.
+Variables
+1
+2000
+With guess 10, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2000.
+Variables
+1
+2000
+**************************************
+Vader Vader R2-D2 R2-D2
+Vader Snoke C-3PO Padme
+Snoke C-3PO Padme Padme
+Padme Padme Snoke C-3PO
+R2-D2 Snoke Lando Dooku
+Dooku Padme Vader Jabba
+C-3PO R2-D2 Vader Vader
+nuifkt
+Vader Snoke Snoke Vader
+Jabba Jabba C-3PO C-3PO
+Vader Snoke C-3PO Jabba
+--
+With guess 1, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 2, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 300.
+Variables
+1
+300
+With guess 3, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+With guess 4, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2000.
+Variables
+1
+2000
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
+Variables
+1
+2000
+With guess 6, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 2000.
+Variables
+1
+2000
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 2000.
+Variables
+1
+2000
+make_guess: invalid guess
+Variables
+0
+2000
+With guess 8, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 2000.
+Variables
+1
+2000
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
+Variables
+1
+2000
+With guess 10, you got 0 perfect matches and 3 misplaced matches.
+Your score is 300 and current max score is 2000.
+Variables
+1
+2000
+**************************************
+Vader C-3PO R2-D2 Vader
+Dooku Dooku Lando C-3PO
+Lando C-3PO R2-D2 Padme
+C-3PO Lando Lando Dooku
+ejwalubck
+Dooku R2-D2 R2-D2 R2-D2
+Padme Snoke Padme Vader
+R2-D2 Snoke Padme R2-D2
 Padme Padme Padme Dooku
-Vader Vader Jabba Snoke
-Lando Snoke Jabba Lando
-Lando Padme Jabba Snoke
-Dooku Jabba Lando Padme
+Lando Snoke C-3PO Padme
+Padme Padme Snoke Vader
+--
+With guess 1, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 3, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1100.
+Variables
+1
+1100
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+make_guess: invalid guess
+Variables
+0
+1100
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1100.
+Variables
+1
+1100
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 8, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1100.
+Variables
+1
+1100
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
+Variables
+1
+1100
+With guess 10, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
+Variables
+1
+1100
+**************************************
+Padme Padme Vader Snoke
+Snoke Jabba Vader Jabba
+Padme Snoke R2-D2 Dooku
+Padme R2-D2 Dooku Dooku
+Padme Lando Lando Jabba
+C-3PO Jabba Lando C-3PO
+skrp
+Vader Padme Snoke Dooku
+Padme C-3PO Vader Snoke
+Lando Jabba Snoke Dooku
+Vader Vader Jabba C-3PO
+--
+With guess 1, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+With guess 2, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
+Variables
+1
+2000
+With guess 4, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2000.
+Variables
+1
+2000
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2000.
+Variables
+1
+2000
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
+Variables
+1
+2000
+make_guess: invalid guess
+Variables
+0
+2000
+With guess 7, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2000.
+Variables
+1
+2000
+With guess 8, you got 3 perfect matches and 0 misplaced matches.
+Your score is 3000 and current max score is 3000.
+Variables
+1
+3000
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 3000.
+Variables
+1
+3000
+With guess 10, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 3000.
+Variables
+1
+3000
+**************************************
+Padme Jabba Vader Vader
+R2-D2 Snoke Padme Padme
+Vader Jabba Vader Jabba
+Dooku Snoke Dooku Padme
+C-3PO Dooku Lando Padme
+Vader Dooku Jabba Dooku
+R2-D2 Vader C-3PO Snoke
+Padme Vader C-3PO C-3PO
+Lando C-3PO Dooku Lando
+Snoke R2-D2 Dooku Vader
 --
 With guess 1, you got 1 perfect matches and 0 misplaced matches.
 Your score is 1000 and current max score is 1000.
@@ -337,162 +473,38 @@ Your score is 100 and current max score is 1000.
 Variables
 1
 1000
-With guess 3, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1000.
+With guess 3, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1000.
 Variables
 1
 1000
-With guess 4, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
-1100
-With guess 5, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
+1000
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
-1100
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
+1000
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
 Variables
 1
-1100
-With guess 7, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 8, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
-Variables
-1
-1100
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1100.
-Variables
-1
-1100
-With guess 10, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
-Variables
-1
-1100
-**************************************
-Snoke Snoke Padme Padme
-C-3PO Lando Padme Snoke
-Vader Lando Jabba Vader
-Lando Vader Vader Padme
-Padme Snoke Snoke Lando
-R2-D2 Padme R2-D2 R2-D2
-Dooku Snoke Lando Padme
-C-3PO C-3PO Lando Vader
-Snoke Padme Snoke Jabba
-Dooku Snoke R2-D2 Jabba
---
-With guess 1, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 2, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 3, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 1100.
-Variables
-1
-1100
-With guess 4, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1100.
-Variables
-1
-1100
-With guess 5, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
-Variables
-1
-1100
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
-Variables
-1
-1100
-With guess 7, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
-Variables
-1
-1100
-With guess 8, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 9, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
-Variables
-1
-1100
-**************************************
-Dooku Padme Padme Dooku
-Vader R2-D2 C-3PO Snoke
-Lando Jabba R2-D2 Lando
-Jabba Vader Snoke Vader
-Snoke Lando Dooku Dooku
-C-3PO Padme Padme Vader
-C-3PO Snoke Dooku Dooku
-Jabba Lando Lando Vader
-Vader Dooku Vader C-3PO
-Vader C-3PO C-3PO Vader
---
-With guess 1, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 0.
-Variables
-1
-0
-With guess 2, you got 1 perfect matches and 2 misplaced matches.
+1000
+With guess 7, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
-With guess 3, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1200.
-Variables
-1
-1200
-With guess 4, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
-Variables
-1
-1200
-With guess 5, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1200.
-Variables
-1
-1200
-With guess 6, you got 0 perfect matches and 2 misplaced matches.
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
 Your score is 200 and current max score is 1200.
 Variables
 1
 1200
-With guess 7, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
-Variables
-1
-1200
-With guess 8, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 1200.
-Variables
-1
-1200
-With guess 9, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1200.
+With guess 9, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1200.
 Variables
 1
 1200
@@ -502,78 +514,17 @@ Variables
 1
 1200
 **************************************
-R2-D2 Snoke R2-D2 Vader
-Jabba Dooku C-3PO Jabba
-Lando Snoke C-3PO Padme
-Lando Vader C-3PO Jabba
-R2-D2 Dooku Jabba Snoke
-Snoke R2-D2 Lando Padme
-Snoke Lando R2-D2 C-3PO
-R2-D2 R2-D2 Lando Padme
-Dooku Lando C-3PO Snoke
-Vader Padme Snoke R2-D2
---
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
-Variables
-1
-300
-With guess 2, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 300.
-Variables
-1
-300
-With guess 3, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
-Variables
-1
-300
-With guess 4, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 300.
-Variables
-1
-300
-With guess 5, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1000.
-Variables
-1
-1000
-With guess 6, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1000.
-Variables
-1
-1000
-With guess 7, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 8, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
-Variables
-1
-1100
-With guess 9, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 10, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
-Variables
-1
-1100
-**************************************
-Padme Snoke Jabba Padme
-Snoke Vader R2-D2 Lando
-Snoke Lando Dooku Padme
-Snoke Dooku R2-D2 Snoke
-Padme Jabba Dooku Jabba
-Padme R2-D2 R2-D2 Jabba
-R2-D2 Snoke C-3PO Vader
-Lando C-3PO R2-D2 Lando
-Padme Snoke Dooku Snoke
-Jabba Snoke R2-D2 Vader
+C-3PO Snoke R2-D2 C-3PO
+Padme Snoke Snoke Snoke
+Vader Vader Vader C-3PO
+Padme Vader R2-D2 Jabba
+Lando C-3PO Lando Padme
+C-3PO R2-D2 Lando Dooku
+Snoke Snoke R2-D2 Padme
+Vader Vader Snoke Snoke
+miwfztycqsaxbnghkv
+R2-D2 Lando Padme C-3PO
+Snoke Dooku Padme Dooku
 --
 With guess 1, you got 0 perfect matches and 2 misplaced matches.
 Your score is 200 and current max score is 200.
@@ -585,80 +536,84 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
-With guess 3, you got 1 perfect matches and 0 misplaced matches.
+With guess 3, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 5, you got 1 perfect matches and 0 misplaced matches.
 Your score is 1000 and current max score is 1100.
 Variables
 1
 1100
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 8, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
+Variables
+1
+1200
+make_guess: invalid guess
+Variables
+0
+1200
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
+Variables
+1
+1200
+With guess 10, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1200.
+Variables
+1
+1200
+**************************************
+R2-D2 Jabba Vader Dooku
+Lando Vader Snoke Snoke
+Dooku Snoke Snoke Lando
+Snoke Snoke Lando Snoke
+Snoke Snoke Jabba Dooku
+C-3PO Vader Dooku Dooku
+Padme Lando Snoke Snoke
+Vader Padme Lando C-3PO
+C-3PO Vader Padme Lando
+Vader C-3PO Vader R2-D2
+--
+With guess 1, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1000.
+Variables
+1
+1000
+With guess 2, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
+Variables
+1
+1200
+With guess 3, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1200.
+Variables
+1
+1200
 With guess 4, you got 2 perfect matches and 0 misplaced matches.
 Your score is 2000 and current max score is 2000.
 Variables
 1
 2000
-With guess 5, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2000.
-Variables
-1
-2000
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2000.
-Variables
-1
-2000
-With guess 7, you got 0 perfect matches and 4 misplaced matches.
-Your score is 400 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 9, you got 1 perfect matches and 1 misplaced matches.
+With guess 5, you got 1 perfect matches and 1 misplaced matches.
 Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-With guess 10, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2000.
-Variables
-1
-2000
-**************************************
-Snoke Padme Vader Lando
-C-3PO Lando Lando Jabba
-Vader Lando Padme Snoke
-R2-D2 Lando Dooku Snoke
-Lando Lando C-3PO Padme
-Vader Dooku C-3PO R2-D2
-Padme Lando Jabba Vader
-Vader Dooku Lando Lando
-Vader Jabba Dooku Dooku
-R2-D2 Padme R2-D2 Lando
---
-With guess 1, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 2, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
-Variables
-1
-2000
-With guess 3, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-With guess 4, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 5, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
 Variables
 1
 2000
@@ -667,13 +622,395 @@ Your score is 200 and current max score is 2000.
 Variables
 1
 2000
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 2000.
+Variables
+1
+2000
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2000.
+Variables
+1
+2000
+With guess 9, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2000.
+Variables
+1
+2000
+With guess 10, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+**************************************
+Lando Lando Padme C-3PO
+Padme Jabba C-3PO R2-D2
+Lando Dooku C-3PO Lando
+Vader C-3PO C-3PO Dooku
+Jabba Snoke Dooku Padme
+Lando Snoke Padme Dooku
+Lando Vader Jabba Dooku
+fdsnzpvwmgeyhkrxtjc
+Vader Vader C-3PO R2-D2
+Snoke Vader R2-D2 C-3PO
+Jabba C-3PO Lando Dooku
+--
+With guess 1, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 4, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+make_guess: invalid guess
+Variables
+0
+1100
+With guess 8, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
+Variables
+1
+1100
+With guess 9, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
+Variables
+1
+1200
+With guess 10, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1200.
+Variables
+1
+1200
+**************************************
+Vader Vader R2-D2 Padme
+Lando Snoke R2-D2 Snoke
+R2-D2 R2-D2 C-3PO Padme
+Lando Dooku Lando R2-D2
+Lando Jabba Snoke Lando
+Dooku R2-D2 Dooku C-3PO
+Jabba Vader R2-D2 Dooku
+Dooku Jabba Dooku Vader
+Snoke R2-D2 Jabba Padme
+ovntlxhpqikeycrzubfmg
+C-3PO Padme Padme C-3PO
+--
+With guess 1, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 2, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 4, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1100.
+Variables
+1
+1100
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 8, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 9, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1100.
+Variables
+1
+1100
+make_guess: invalid guess
+Variables
+0
+1100
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+**************************************
+Snoke Dooku Padme R2-D2
+Dooku R2-D2 C-3PO Vader
+Jabba Snoke Jabba C-3PO
+Jabba Padme R2-D2 C-3PO
+Lando Jabba Jabba Lando
+Dooku Dooku Snoke Snoke
+Vader C-3PO R2-D2 Dooku
+Snoke R2-D2 R2-D2 Snoke
+Lando Jabba Lando C-3PO
+Snoke C-3PO Padme Padme
+--
+With guess 1, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1000.
+Variables
+1
+1000
+With guess 2, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
+Variables
+1
+1000
+With guess 3, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
+Variables
+1
+1000
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
+Variables
+1
+1000
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1000.
+Variables
+1
+1000
+With guess 6, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 8, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2000.
+Variables
+1
+2000
+With guess 10, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+**************************************
+Padme Jabba Padme Vader
+Padme Snoke Dooku C-3PO
+R2-D2 Vader Snoke R2-D2
+C-3PO Vader Lando Dooku
+Lando Lando Snoke Vader
+C-3PO Lando Vader Dooku
+Dooku Snoke Jabba Dooku
+Dooku Jabba R2-D2 Padme
+Snoke R2-D2 Snoke Vader
+Lando R2-D2 Vader Snoke
+--
+With guess 1, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 2, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
+Variables
+1
+200
+With guess 3, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
+Variables
+1
+200
+With guess 4, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
+Variables
+1
+200
+With guess 5, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 200.
+Variables
+1
+200
+With guess 6, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 8, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1100.
+Variables
+1
+1100
+With guess 9, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
+Variables
+1
+1200
+With guess 10, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
+**************************************
+Snoke Padme R2-D2 Padme
+Dooku Dooku R2-D2 Padme
+Lando R2-D2 Snoke C-3PO
+Dooku Snoke R2-D2 Padme
+Vader Jabba R2-D2 C-3PO
+R2-D2 C-3PO C-3PO Vader
+Padme Snoke C-3PO Lando
+R2-D2 Dooku Lando Snoke
+Lando C-3PO Snoke C-3PO
+Padme Vader Lando R2-D2
+--
+With guess 1, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1000.
+Variables
+1
+1000
+With guess 2, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1000.
+Variables
+1
+1000
+With guess 3, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
+Variables
+1
+1000
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1000.
+Variables
+1
+1000
+With guess 5, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1000.
+Variables
+1
+1000
+With guess 6, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 7, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 1100.
+Variables
+1
+1100
+With guess 8, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 1100.
+Variables
+1
+1100
+With guess 9, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+**************************************
+Lando Vader Dooku Padme
+R2-D2 Vader R2-D2 R2-D2
+Jabba Vader Dooku Lando
+Jabba Snoke Dooku R2-D2
+Lando R2-D2 R2-D2 Jabba
+R2-D2 Dooku Vader Snoke
+Lando Vader Jabba Jabba
+Lando C-3PO Jabba Vader
+Vader Jabba Jabba Padme
+Jabba R2-D2 R2-D2 Dooku
+--
+With guess 1, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 100.
+Variables
+1
+100
+With guess 5, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 100.
+Variables
+1
+100
+With guess 6, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2000.
+Variables
+1
+2000
 With guess 7, you got 0 perfect matches and 1 misplaced matches.
 Your score is 100 and current max score is 2000.
 Variables
 1
 2000
-With guess 8, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
+With guess 8, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 2000.
 Variables
 1
 2000
@@ -688,35 +1025,101 @@ Variables
 1
 2000
 **************************************
-Vader Lando Jabba C-3PO
-C-3PO Jabba Dooku Vader
-Snoke Vader Snoke Snoke
-Padme Padme Dooku Lando
-R2-D2 Padme Lando Vader
-Dooku Dooku Padme Lando
-C-3PO Vader Dooku R2-D2
-Padme Snoke Lando Snoke
-uhzxdnvtreflso
-R2-D2 Padme Vader Dooku
-Vader Padme Snoke Lando
+Vader Vader Padme Snoke
+Dooku Lando C-3PO Padme
+Snoke C-3PO Jabba Vader
+Jabba Vader Lando Jabba
+Vader Vader Snoke Lando
+Jabba Padme Vader C-3PO
+C-3PO Padme C-3PO Jabba
+Padme C-3PO R2-D2 Lando
+Dooku Lando C-3PO Jabba
+Vader Vader R2-D2 Jabba
 --
-With guess 1, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+With guess 1, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
 Variables
 1
-200
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 200.
+1100
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
 Variables
 1
-200
+1100
 With guess 3, you got 2 perfect matches and 1 misplaced matches.
 Your score is 2100 and current max score is 2100.
 Variables
 1
 2100
-With guess 4, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2100.
+With guess 4, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
+Variables
+1
+2100
+With guess 5, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2100.
+Variables
+1
+2100
+With guess 6, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 2100.
+Variables
+1
+2100
+With guess 7, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
+Variables
+1
+2100
+With guess 8, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 2100.
+Variables
+1
+2100
+With guess 9, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
+Variables
+1
+2100
+With guess 10, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
+Variables
+1
+2100
+**************************************
+Lando Dooku Lando Dooku
+Padme Snoke Vader Snoke
+pyxbjflwtqzhudsgrvniamke
+Padme Padme Snoke Lando
+Snoke Jabba Vader Vader
+Vader Padme Lando Vader
+C-3PO Padme Snoke C-3PO
+R2-D2 Padme Padme Lando
+Snoke Dooku Padme Vader
+Dooku Padme Jabba Lando
+Snoke Lando Padme C-3PO
+--
+With guess 1, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 0.
+Variables
+1
+0
+With guess 2, you got 2 perfect matches and 1 misplaced matches.
+Your score is 2100 and current max score is 2100.
+Variables
+1
+2100
+make_guess: invalid guess
+Variables
+0
+2100
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 2100.
+Variables
+1
+2100
+With guess 4, you got 2 perfect matches and 0 misplaced matches.
+Your score is 2000 and current max score is 2100.
 Variables
 1
 2100
@@ -725,13 +1128,13 @@ Your score is 100 and current max score is 2100.
 Variables
 1
 2100
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2100.
+With guess 6, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2100.
 Variables
 1
 2100
-With guess 7, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2100.
+With guess 7, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2100.
 Variables
 1
 2100
@@ -740,279 +1143,27 @@ Your score is 1100 and current max score is 2100.
 Variables
 1
 2100
-Variables
-0
-2100
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2100.
-Variables
-1
-2100
-With guess 10, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2100.
-Variables
-1
-2100
-**************************************
-Vader Vader Snoke Snoke
-Jabba R2-D2 Jabba C-3PO
-Vader R2-D2 Jabba Dooku
-C-3PO Jabba Snoke Snoke
-Padme Jabba R2-D2 Lando
-Snoke Vader Vader Dooku
-Dooku Snoke Lando Jabba
-Vader R2-D2 Vader R2-D2
-Dooku Snoke Jabba Padme
-Snoke Jabba C-3PO C-3PO
---
-With guess 1, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1200.
-Variables
-1
-1200
-With guess 2, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 1200.
-Variables
-1
-1200
-With guess 3, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 1200.
-Variables
-1
-1200
-With guess 4, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1200.
-Variables
-1
-1200
-With guess 5, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1200.
-Variables
-1
-1200
-With guess 6, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 7, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 9, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
-With guess 10, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-**************************************
-Padme Vader R2-D2 Lando
-Snoke Dooku Padme Snoke
-R2-D2 Snoke Dooku R2-D2
-Jabba C-3PO C-3PO Jabba
-Dooku Vader Dooku R2-D2
-Snoke Snoke R2-D2 Lando
-Padme Snoke Dooku R2-D2
-Dooku Snoke C-3PO R2-D2
-Lando Dooku Vader Dooku
-R2-D2 Lando C-3PO C-3PO
---
-With guess 1, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 100.
-Variables
-1
-100
-With guess 2, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
-With guess 4, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 5, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
-Variables
-1
-2000
-With guess 6, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 2000.
-Variables
-1
-2000
-With guess 7, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2000.
-Variables
-1
-2000
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 10, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
-Variables
-1
-2000
-**************************************
-R2-D2 Dooku Jabba Snoke
-R2-D2 Vader Vader Snoke
-Jabba Snoke R2-D2 Lando
-C-3PO Dooku Padme C-3PO
-Vader Lando Snoke Snoke
-Snoke Dooku Snoke Vader
-Lando Jabba Jabba R2-D2
-Padme Snoke Jabba Padme
-Jabba Dooku Lando Padme
-Padme Dooku C-3PO Padme
---
-With guess 1, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1000.
-Variables
-1
-1000
-With guess 2, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
-With guess 4, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
-Variables
-1
-2000
-With guess 5, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 2000.
-Variables
-1
-2000
-With guess 6, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 2000.
-Variables
-1
-2000
-With guess 7, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 2000.
-Variables
-1
-2000
 With guess 9, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 2000.
+Your score is 0 and current max score is 2100.
 Variables
 1
-2000
-With guess 10, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
+2100
+With guess 10, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 2100.
 Variables
 1
-2000
+2100
 **************************************
-Padme Snoke Dooku C-3PO
-Jabba Vader R2-D2 C-3PO
-R2-D2 Dooku R2-D2 Snoke
-Vader Padme Lando Jabba
-Dooku Snoke C-3PO Padme
-Padme R2-D2 Lando Dooku
-Vader Snoke Snoke Snoke
-Snoke Padme R2-D2 Dooku
-Snoke Dooku Lando Lando
-Snoke Snoke Vader Snoke
---
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
-Variables
-1
-300
-With guess 2, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 300.
-Variables
-1
-300
-With guess 3, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1000.
-Variables
-1
-1000
-With guess 4, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 1000.
-Variables
-1
-1000
-With guess 5, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1000.
-Variables
-1
-1000
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1000.
-Variables
-1
-1000
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1200.
-Variables
-1
-1200
-With guess 8, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1200.
-Variables
-1
-1200
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1200.
-Variables
-1
-1200
-With guess 10, you got 3 perfect matches and 0 misplaced matches.
-Your score is 3000 and current max score is 3000.
-Variables
-1
-3000
-**************************************
-Jabba Vader Jabba Jabba
-Vader Lando R2-D2 C-3PO
-Snoke Lando C-3PO Jabba
-Padme Dooku Vader C-3PO
-R2-D2 Dooku Padme R2-D2
-Padme Dooku R2-D2 Dooku
-Dooku R2-D2 Dooku Lando
-dk
-Dooku Vader Vader Snoke
-R2-D2 C-3PO C-3PO Snoke
-Dooku R2-D2 Dooku C-3PO
+Padme Padme Lando C-3PO
+C-3PO Vader Lando Jabba
+Jabba Vader Lando Jabba
+C-3PO Snoke Padme Snoke
+C-3PO Dooku Padme R2-D2
+Jabba Snoke Padme Lando
+Padme Snoke Vader Padme
+Dooku Padme Dooku Vader
+Jabba Padme Dooku Lando
+Vader Snoke Vader Snoke
 --
 With guess 1, you got 0 perfect matches and 1 misplaced matches.
 Your score is 100 and current max score is 100.
@@ -1024,103 +1175,100 @@ Your score is 200 and current max score is 200.
 Variables
 1
 200
-With guess 3, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
+With guess 3, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 200.
 Variables
 1
-1100
-With guess 4, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
+200
+With guess 4, you got 1 perfect matches and 2 misplaced matches.
+Your score is 1200 and current max score is 1200.
 Variables
 1
-1100
-With guess 5, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
+1200
+With guess 5, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1100
-With guess 6, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
+1200
+With guess 6, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-1100
-With guess 7, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
+1200
+With guess 7, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1200.
 Variables
 1
-1100
-Variables
-0
-1100
-With guess 8, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
+1200
+With guess 8, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1200.
 Variables
 1
-2000
-With guess 9, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
+1200
+With guess 9, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 1200.
 Variables
 1
-2000
-With guess 10, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2000.
-Variables
-1
-2000
-**************************************
-Snoke Jabba Snoke Snoke
-Snoke Padme C-3PO Snoke
-Vader C-3PO Vader Padme
-Padme Vader Dooku Padme
-R2-D2 Lando C-3PO C-3PO
-Snoke Snoke Padme C-3PO
-Snoke Vader Snoke Jabba
-R2-D2 Snoke Jabba C-3PO
-R2-D2 Jabba Vader Snoke
-Jabba Jabba Dooku Padme
---
-With guess 1, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 2, you got 2 perfect matches and 1 misplaced matches.
+1200
+With guess 10, you got 2 perfect matches and 1 misplaced matches.
 Your score is 2100 and current max score is 2100.
 Variables
 1
 2100
-With guess 3, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2100.
+**************************************
+C-3PO C-3PO C-3PO Vader
+Dooku Vader Lando Padme
+Snoke Snoke Vader Jabba
+Vader C-3PO Snoke Lando
+Snoke Vader Vader Padme
+Lando Snoke R2-D2 Snoke
+Lando Vader C-3PO Dooku
+Jabba Padme Dooku Dooku
+Padme C-3PO Padme Jabba
+Dooku Lando R2-D2 Padme
+--
+With guess 1, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 1100.
+Variables
+1
+1100
+With guess 2, you got 0 perfect matches and 1 misplaced matches.
+Your score is 100 and current max score is 1100.
+Variables
+1
+1100
+With guess 3, you got 2 perfect matches and 1 misplaced matches.
+Your score is 2100 and current max score is 2100.
 Variables
 1
 2100
-With guess 4, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2100.
-Variables
-1
-2100
-With guess 5, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 2100.
-Variables
-1
-2100
-With guess 6, you got 1 perfect matches and 2 misplaced matches.
+With guess 4, you got 1 perfect matches and 2 misplaced matches.
 Your score is 1200 and current max score is 2100.
 Variables
 1
 2100
-With guess 7, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 2100.
-Variables
-1
-2100
-With guess 8, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 2100.
-Variables
-1
-2100
-With guess 9, you got 2 perfect matches and 0 misplaced matches.
+With guess 5, you got 2 perfect matches and 0 misplaced matches.
 Your score is 2000 and current max score is 2100.
+Variables
+1
+2100
+With guess 6, you got 1 perfect matches and 1 misplaced matches.
+Your score is 1100 and current max score is 2100.
+Variables
+1
+2100
+With guess 7, you got 0 perfect matches and 2 misplaced matches.
+Your score is 200 and current max score is 2100.
+Variables
+1
+2100
+With guess 8, you got 0 perfect matches and 0 misplaced matches.
+Your score is 0 and current max score is 2100.
+Variables
+1
+2100
+With guess 9, you got 1 perfect matches and 0 misplaced matches.
+Your score is 1000 and current max score is 2100.
 Variables
 1
 2100
@@ -1129,132 +1277,4 @@ Your score is 0 and current max score is 2100.
 Variables
 1
 2100
-**************************************
-Lando Snoke C-3PO C-3PO
-Dooku Lando Dooku Vader
-Padme Vader C-3PO Lando
-Padme Lando Snoke Vader
-Snoke Lando C-3PO C-3PO
-R2-D2 Vader Jabba Snoke
-Dooku Lando R2-D2 Dooku
-C-3PO Dooku Snoke R2-D2
-Snoke R2-D2 Padme Padme
-Vader Dooku C-3PO Vader
---
-With guess 1, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
-Variables
-1
-300
-With guess 2, you got 0 perfect matches and 1 misplaced matches.
-Your score is 100 and current max score is 300.
-Variables
-1
-300
-With guess 3, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 300.
-Variables
-1
-300
-With guess 4, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 300.
-Variables
-1
-300
-With guess 5, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 6, you got 1 perfect matches and 1 misplaced matches.
-Your score is 1100 and current max score is 1100.
-Variables
-1
-1100
-With guess 7, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1100.
-Variables
-1
-1100
-With guess 8, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1100.
-Variables
-1
-1100
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1100.
-Variables
-1
-1100
-With guess 10, you got 0 perfect matches and 2 misplaced matches.
-Your score is 200 and current max score is 1100.
-Variables
-1
-1100
-**************************************
-zpix
-Lando Jabba R2-D2 Padme
-R2-D2 Jabba Vader Jabba
-Padme Lando Lando Dooku
-Snoke Vader C-3PO Vader
-Padme C-3PO C-3PO Lando
-C-3PO Dooku Snoke Padme
-Snoke Jabba Vader R2-D2
-Jabba C-3PO Padme R2-D2
-R2-D2 Dooku Vader Jabba
-Vader Jabba Vader Vader
---
-Variables
-0
--1
-With guess 1, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 0.
-Variables
-1
-0
-With guess 2, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1000.
-Variables
-1
-1000
-With guess 3, you got 0 perfect matches and 0 misplaced matches.
-Your score is 0 and current max score is 1000.
-Variables
-1
-1000
-With guess 4, you got 1 perfect matches and 2 misplaced matches.
-Your score is 1200 and current max score is 1200.
-Variables
-1
-1200
-With guess 5, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 1200.
-Variables
-1
-1200
-With guess 6, you got 0 perfect matches and 3 misplaced matches.
-Your score is 300 and current max score is 1200.
-Variables
-1
-1200
-With guess 7, you got 2 perfect matches and 0 misplaced matches.
-Your score is 2000 and current max score is 2000.
-Variables
-1
-2000
-With guess 8, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 9, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
-With guess 10, you got 1 perfect matches and 0 misplaced matches.
-Your score is 1000 and current max score is 2000.
-Variables
-1
-2000
 **************************************

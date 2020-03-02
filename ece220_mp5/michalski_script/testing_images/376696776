@@ -45,6 +45,7 @@ Your score is 1100 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -121,6 +122,7 @@ Your score is 200 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
@@ -462,6 +464,7 @@ Your score is 200 and current max score is 200.
 Variables
 1
 200
+make_guess: invalid guess
 Variables
 0
 200
@@ -786,6 +789,7 @@ Your score is 0 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -877,6 +881,7 @@ Your score is 1200 and current max score is 1200.
 Variables
 1
 1200
+make_guess: invalid guess
 Variables
 0
 1200
@@ -995,6 +1000,7 @@ Your score is 1200 and current max score is 3000.
 Variables
 1
 3000
+make_guess: invalid guess
 Variables
 0
 3000
@@ -1212,6 +1218,7 @@ Jabba C-3PO Jabba C-3PO
 Padme Snoke Padme R2-D2
 C-3PO Dooku R2-D2 Lando
 --
+make_guess: invalid guess
 Variables
 0
 -1

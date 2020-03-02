@@ -15,6 +15,7 @@ Your score is 1100 and current max score is 1100.
 Variables
 1
 1100
+make_guess: invalid guess
 Variables
 0
 1100
@@ -406,6 +407,7 @@ Your score is 100 and current max score is 1100.
 Variables
 1
 1100
+make_guess: invalid guess
 Variables
 0
 1100
@@ -648,6 +650,7 @@ Your score is 100 and current max score is 400.
 Variables
 1
 400
+make_guess: invalid guess
 Variables
 0
 400
@@ -749,6 +752,7 @@ Your score is 100 and current max score is 3000.
 Variables
 1
 3000
+make_guess: invalid guess
 Variables
 0
 3000
@@ -877,6 +881,7 @@ Your score is 100 and current max score is 2000.
 Variables
 1
 2000
+make_guess: invalid guess
 Variables
 0
 2000
