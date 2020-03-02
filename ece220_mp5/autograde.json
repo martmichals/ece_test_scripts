@@ -14,7 +14,7 @@
   "options": [
     {
       "display": "All",
-      "description": "Run all portions of the test script (takes ~5 minutes)",
+      "description": "Run all portions of the test script (takes ~6 minutes)",
       "option": "all"
     },
     {
@@ -28,9 +28,14 @@
       "option": "malformed_input"
     },
     {
-      "display": "Random inputs",
+      "display": "Random Inputs",
       "description": "Test 200 randomly generated guesses to check game logic",
       "option": "random_inputs"
+    },
+    {
+      "display": "Pregenerated Outputs",
+      "description": "Test against a number of pregenerated outputs for various seeds",
+      "option": "pregenerated_output"
     }
   ]
 }

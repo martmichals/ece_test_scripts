@@ -42,6 +42,7 @@ while not exit:
 	script = scripts[selection]
 	print('Executing %s...'%(script['name']))
 
+	selected_option = None
 	if 'options' in script:
 		print('********')
 		print('This script has multiple options.')
@@ -57,9 +58,9 @@ while not exit:
 				pass
 			if selection < 0 or selection >= len(script['options']):
 				print('Invalid Selection!')
-		option = script['options'][selection]['option']
-		for i in range(len(script['commands'])):
-			script['commands'][i] = script['commands'][i].replace('{option}',option)
+		selected_option = script['options'][selection]['option']
+		#for i in range(len(script['commands'])):
+		#	script['commands'][i] = script['commands'][i].replace('{option}',option)
 
 
 	for in_file in script['files']:
@@ -68,7 +69,7 @@ while not exit:
 	cwd = os.getcwd()
 	os.chdir(script['path'])
 	for command in script['commands']:
-		subprocess.Popen(command, shell=True).wait()
+		subprocess.Popen(command if selected_option == None else command.replace('{option}', selected_option), shell=True).wait()
 	os.chdir(cwd)
 
 	if not 'y' in input('Would you like to run another test [y/N]? ').lower():

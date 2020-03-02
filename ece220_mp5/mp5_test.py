@@ -1,4 +1,4 @@
-import json,sys,pexpect,random,time
+import json,sys,pexpect,random,time,subprocess
 
 start = time.time()
 print('Starting MP5 Autograder')
@@ -109,6 +109,18 @@ def check_random_inputs():
 			check_output(instance, output, err)
 			guess += 1
 
+def check_pregenerated_outputs():
+	proc = subprocess.Popen('./michalski_script/test_script.sh', shell=True, stdout=subprocess.PIPE)
+	output, err = proc.communicate()
+	print(output.decode('utf-8'))
+	if 'CONGRATULATIONS, YOU PASSED ALL THE TEST CASES' in output.decode('utf-8'):
+		return
+	else:
+		print('Pregenerated test cases failed!')
+		print(output.decode('utf-8'))
+		sys.exit(0)
+	
+
 option = 'all'
 if len(sys.argv) > 1:
 	option = sys.argv[1]
@@ -119,6 +131,9 @@ if option == 'all':
 	check_sol_generation()
 	print('Testing random inputs...')
 	check_random_inputs()
+	print('Testing against pregenerated output (this will take awhile)...')
+	check_pregenerated_outputs()
+
 elif option == 'malformed_input':
 	print('Testing malformed inputs...')
 	check_malformed_inputs()
@@ -128,9 +143,12 @@ elif option == 'solution_generation':
 elif option == 'random_inputs':
 	print('Testing random inputs...')
 	check_random_inputs()
+elif option == 'pregenerated_output':
+	print('Testing against pregenerated output (this will take awhile)...')
+	check_pregenerated_outputs()
 else:
 	print('Invalid option: ' + option)
-	print('Valid options are all, malformed_input,solution_generation, and random_inputs')
+	print('Valid options are all, malformed_input,solution_generation, random_inputs, and pregenerated_output.')
 	sys.exit(0)
 
 timetaken = time.time() - start
