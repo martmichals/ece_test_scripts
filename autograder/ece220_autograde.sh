@@ -32,7 +32,7 @@ fi
 
 # Setup the directory structure
 echo "Setting up directory structure..."
-cd /tmp
+cd ~
 mkdir -p ece220_student_autograder
 cd ece220_student_autograder
 
