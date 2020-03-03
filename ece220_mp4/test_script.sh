@@ -24,6 +24,10 @@ else
                 echo "Test passed."
                 echo
                 successful=$((successful + 1))
+            elif [[ "$desired_output" == "$mp4_output " ]]; then
+                echo "Test passed."
+                echo
+                successful=$((successful + 1))
             else
                 echo "Test failed."
                 echo "Your output: $mp4_output"
@@ -47,6 +51,10 @@ else
             echo "Input: $in"
 
             if [[ "$desired_output" == "$mp4_output" ]]; then
+                echo "Test passed."
+                echo
+                successful=$((successful + 1))
+            elif [[ "$desired_output" == "$mp4_output " ]]; then
                 echo "Test passed."
                 echo
                 successful=$((successful + 1))
