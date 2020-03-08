@@ -3,13 +3,15 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 
 // File user's file
 #include "updateBoard.h"
 
 // Function prototypes
 int test_neighbors(int* board, int row, int column, int numRows, int numCols, int golden_response, char* spawn_file);
-int test_update(int* golden_board, int* user_board, int numRows, int numCols, char* spawn_file);
+int test_update(int* golden_board, int* user_board, int numRows, int numCols, int iteration);
+int test_alive(int * board, int numRows, int numCols, char* spawn_file);
 
 // Struct used to create linked list to store all the filenames
 typedef struct filename{
@@ -52,16 +54,39 @@ int test_neighbors(int* board, int row, int column, int numRows, int numCols, in
 
     return 1;
 }
+
 /* Function to check whether the user's updateBoard function is working properly
  * @return: 0: if the user's function matches the golden board
  *          1: if the user's function does not match the golden board
  */
-int test_update(int* golden_board, int* user_board, int numRows, int numCols, char* spawn_file){
-    // Run the user function
-    // Compare the user's board to that of the actual
+int test_update(int* golden_board, int* user_board, int numRows, int numCols, int iteration){
+    updateBoard(user_board, numRows, numCols);
+
+    int r, c;
+    for(r = 0; r < numRows; r++){
+        for(c = 0; c < numCols; c++){
+            if(user_board[r*numCols+c] != golden_board[r*numCols+c]){
+                printf("When testing updateBoard(), an error occured\n");
+                printf("\nThe error occured on iteration %d for the tested file\n", iteration);
+                printf("Mismatched (row, column): (%d, %d)\n", r, c);
+                printf("Proper value: %d\n", golden_board[r*numCols+c]);
+                printf("Your value: %d\n\n", user_board[r*numCols+c]);
+                return 1;
+            }
+        }
+    }
     return 0;
 }
  
+/* Function to check whether the user's stayAlive function is working properly
+ * @return: 0: if the user's function is correct
+ *          1: if the user's function is not correct
+ */
+int test_alive(int * board, int numRows, int numCols, char* spawn_file){
+    // Test the stay alive function 
+    return 0;
+}
+
 int main(int argc, char const *argv[]){
 
     // Pull all the file names and store into an linked list
@@ -107,9 +132,6 @@ int main(int argc, char const *argv[]){
             if(fp){
                 fscanf(fp, "%d", &rows);
                 fscanf(fp, "%d", &cols);
-                // Decrement to account for a bug in neighbors storage
-                rows--;
-                cols--;
 
                 int* game_board = malloc(rows*cols*sizeof(int));
                 int* golden_board = malloc(rows*cols*sizeof(int));
@@ -128,7 +150,7 @@ int main(int argc, char const *argv[]){
                 FILE* neighbor_ptr;
                 neighbor_ptr = fopen(buffer, "r");
 
-                printf("Testing neighbors against %s\n", buffer);
+                printf("Testing countLiveNeighbor() against %s\n", buffer);
                 if(neighbor_ptr){
                     int r_in, c_in, proper_out;
                     total++;
@@ -142,7 +164,6 @@ int main(int argc, char const *argv[]){
                     printf("Error opening %s.\nTerminating the program.", buffer);
                     return 1;
                 }
-                printf("Test score: (%d/%d)\n\n", correct, total);
                 fclose(neighbor_ptr);
 
                 // Iterate through and test the board as it changes
@@ -151,14 +172,51 @@ int main(int argc, char const *argv[]){
                 strcat(buffer, ".changes");
                 FILE* changes_ptr;
                 changes_ptr = fopen(buffer, "r");
+                int iterations = 0;
                 if(changes_ptr){
+                    int index = 0;
                     char line_buffer[50];
-                    // Code to iterate over the board changes, updating the golden board
-                    // Code to check the stayAlive function
+                    char let = getc(changes_ptr);
+                    while(let != EOF){
+                        index = 0;
+                        // Fill the buffer
+                        while(let != '\n'){
+                            line_buffer[index]=let;
+                            let = getc(changes_ptr);
+                            index++;
+                        }
+                        let = getc(changes_ptr);
+                        line_buffer[index]='\0';
+                        
+                        int r, c, new_val;
+                        int scan_res = sscanf(line_buffer, "%d,%d,%d", &r, &c, &new_val);
+                        if(scan_res != 3 && iterations != 0){
+                            // The stayAlive function should return 0 here
+                            int test_res = test_update(golden_board, game_board, rows, cols, iterations);
+                            if(test_res == 1)
+                                return 1;
+                            iterations++;
+                        }else if(iterations==0){
+                            printf("Testing updateBoard() against %s\n", buffer);
+                            iterations++;
+                        }else{
+                            golden_board[r*cols+c] = new_val;
+                        }
+
+                        // Clear the buffer
+                        int h;
+                        for(h = 0; h < 50; h++){
+                            buffer[h] = '\0';
+                        }
+                    }
+                    // If the number of iterations is less than 20, the stayAlive function should return 1
+
+
                 }else{
                     printf("Error opening %s.\nTerminating the program.", buffer);
                     return 1;
                 }
+                printf("Test score: (%d/%d)\n\n", correct, total);
                 fclose(changes_ptr);
 
                 free(game_board);
