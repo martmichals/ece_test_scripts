@@ -1,5 +1,9 @@
 import os
 
-for filename in os.listdir('txt_boards'):
+search_dir = 'txt_boards'
+
+for filename in os.listdir(search_dir):
 	if filename.endswith('.in'):
-		print(filename[:-3])
+		name = filename[:-3]
+		if os.path.exists(search_dir + '/' + name + '.changes') and os.path.exists(search_dir + '/' + name + '.neighbors'):
+			print(filename[:-3])
