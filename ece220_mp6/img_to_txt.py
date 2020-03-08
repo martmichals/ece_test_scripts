@@ -14,9 +14,9 @@ def convert_img(image_to_convert, txt_name):
 	txt.write('{} {}\n'.format(height, width)) # Writes rows, columns into the first line of the text file, delimited with a space
 
 	# Writes the initial board into the text file
-	for y in range(0, height -1):
+	for y in range(height):
 	    write_str=''
-	    for x in range(0, width - 1):
+	    for x in range(width):
 	        pixel_val = pixel_map[x, y]
 	
 	        if(pixel_val[0] == 0):
