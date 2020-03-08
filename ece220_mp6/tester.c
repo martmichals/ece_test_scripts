@@ -42,7 +42,6 @@ int test_neighbors(int* board, int row, int column, int numRows, int numCols, in
     return 1;
 }
 
-// TODO: Make sure to deallocate all the space used for storing file names
 int main(int argc, char const *argv[]){
 
     // Pull all the file names and store into an linked list
@@ -74,7 +73,6 @@ int main(int argc, char const *argv[]){
     }else{
         do{
             char* filename = top_ptr->name;
-
             strcpy(buffer, "./txt_boards/");
             strcat(buffer, filename);
             strcat(buffer, ".in");
@@ -98,7 +96,6 @@ int main(int argc, char const *argv[]){
                         fscanf(fp, "%d", &game_board[cols*i+j]);
                     }
                 }
-                
                 // Iterate through and test the neighbors function
                 strcpy(buffer, "./txt_boards/");
                 strcat(buffer, filename);
@@ -106,7 +103,6 @@ int main(int argc, char const *argv[]){
 
                 FILE* neighbor_ptr;
                 neighbor_ptr = fopen(buffer, "r");
-
                 //int rr, cc;
                 //for(rr = 0; rr < rows; rr++){
                 //    for(cc = 0; cc < cols; cc++){
@@ -115,8 +111,6 @@ int main(int argc, char const *argv[]){
                 //    printf("\n");
                 //}
                 printf("Testing neighbors against %s\n", buffer);
-
-
                 if(neighbor_ptr){
                     int r_in, c_in, proper_out;
                     while(fscanf(neighbor_ptr, "%d, %d, %d\n", &r_in, &c_in, &proper_out) != EOF){
@@ -138,13 +132,10 @@ int main(int argc, char const *argv[]){
             }
             fclose(fp);
 
-
             free(top_ptr);
-
             top_ptr = top_ptr->next;
         }while(top_ptr != NULL);
         free(top_ptr);
     }
-
     return 0;
 }
