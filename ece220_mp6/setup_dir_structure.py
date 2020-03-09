@@ -16,6 +16,6 @@ if not os.path.exists('lib'):
 	os.makedirs('lib')
 	for file_name in lib_files:
 		try:
-			os.rename(file_name, 'include/' + file_name)
+			os.rename(file_name, 'lib/' + file_name)
 		except:
 			pass
