@@ -251,5 +251,6 @@ int main(int argc, char const *argv[]){
         }while(top_ptr != NULL);
         free(top_ptr);
     }
+    printf("\nCongrats! You passed all the test cases!\n");
     return 0;
 }
