@@ -3,7 +3,7 @@
   "class": "ece220",
   "files": [
     "mp6/updateBoard.h",
-    "mp6/updateboard.c",
+    "mp6/updateBoard.c",
     "mp6/include/tic.h",
     "mp6/include/termcap.h",
     "mp6/include/ncurses_defs",
