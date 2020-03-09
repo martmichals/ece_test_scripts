@@ -5,7 +5,7 @@ include_files = 'tic.h,termcap.h,ncurses_defs,term.h,MKparametrized.sh,Caps.osf1
 lib_files = 'libmenu.a,libpanel.a,libform.a,libform_g.a,libncurses_g.a,libpanel_g.a,libncurses++.a,libncurses.a,libmenu_g.a,libncurses++_g.a'.split(',')
 
 if not os.path.exists('include'):
-	os.mkdirs('include')
+	os.makedirs('include')
 	for file_name in include_files:
 		try:
 			os.rename(file_name, 'include/' + file_name)
@@ -13,7 +13,7 @@ if not os.path.exists('include'):
 			pass
 
 if not os.path.exists('lib'):
-	os.mkdirs('lib')
+	os.makedirs('lib')
 	for file_name in lib_files:
 		try:
 			os.rename(file_name, 'include/' + file_name)
