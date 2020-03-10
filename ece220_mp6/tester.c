@@ -7,6 +7,10 @@
 
 // File user's file
 #include "updateBoard.h"
+#include "updateBoardGold.h"
+
+// Number of file counter
+int file_count = 1;
 
 // Function prototypes
 int test_neighbors(int* board, int row, int column, int numRows, int numCols, int golden_response, char* spawn_file);
@@ -111,6 +115,7 @@ int main(int argc, char const *argv[]){
             strcpy(new_top->name, buffer);
             new_top->next = top_ptr;
             top_ptr = new_top;
+            file_count++;
         }
         fclose(fp);
     }else{
@@ -123,7 +128,7 @@ int main(int argc, char const *argv[]){
         printf("Error in parsing the linked list in test script.\nTerminating the program");
         return 1;
     }else{
-        int correct, total = 0;
+        int correct = 0;
         do{
             char* filename = top_ptr->name;
             strcpy(buffer, "./txt_boards/");
@@ -160,7 +165,6 @@ int main(int argc, char const *argv[]){
                 printf("Testing countLiveNeighbor() against %s\n", buffer);
                 if(neighbor_ptr){
                     int r_in, c_in, proper_out;
-                    total++;
                     while(fscanf(neighbor_ptr, "%d, %d, %d\n", &r_in, &c_in, &proper_out) != EOF){
                         int test_failure = test_neighbors(game_board, r_in, c_in, rows, cols, proper_out, buffer);
                         if(test_failure)
@@ -235,7 +239,7 @@ int main(int argc, char const *argv[]){
                     printf("Error opening %s.\nTerminating the program.", buffer);
                     return 1;
                 }
-                printf("Test progress: %d/%d\n\n", correct, total);
+                printf("Test progress: %d/%d\n\n", correct, file_count);
                 fclose(changes_ptr);
 
                 free(game_board);
@@ -251,6 +255,5 @@ int main(int argc, char const *argv[]){
         }while(top_ptr != NULL);
         free(top_ptr);
     }
-    printf("\nCongrats! You passed all the test cases!\n");
     return 0;
 }
