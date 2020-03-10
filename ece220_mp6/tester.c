@@ -7,7 +7,6 @@
 
 // File user's file
 #include "updateBoard.h"
-#include "updateBoardGold.h"
 
 // Number of file counter
 int file_count = 1;
