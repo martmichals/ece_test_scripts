@@ -15,6 +15,7 @@ int file_count = 1;
 int test_neighbors(int* board, int row, int column, int numRows, int numCols, int golden_response, char* spawn_file);
 int test_update(int* golden_board, int* user_board, int numRows, int numCols, int iteration);
 int test_alive(int * board, int numRows, int numCols, int expected, int iteration);
+void print_board(int* board, int boardRowSize, int boardColSize);
 
 // Struct used to create linked list to store all the filenames
 typedef struct filename{
@@ -74,6 +75,14 @@ int test_update(int* golden_board, int* user_board, int numRows, int numCols, in
                 printf("Mismatched (row, column): (%d, %d)\n", r, c);
                 printf("Proper value: %d\n", golden_board[r*numCols+c]);
                 printf("Your value: %d\n\n", user_board[r*numCols+c]);
+                char in;
+                scanf("Display full boards? (y/N): %c", &in);
+                if(in == 'y' || in == 'Y'){
+                    printf("User board\n");
+                    print_board(user_board, numRows, numCols);
+                    printf("Golden board\n");
+                    print_board(golden_board, numRows, numCols);
+                }
                 return 1;
             }
         }
@@ -95,6 +104,17 @@ int test_alive(int* board, int numRows, int numCols, int expected, int iteration
         return 1;
     }
     return 0;
+}
+/*
+ * Helper function to printout a full board in Xs and .s
+ */
+void print_board(int* board, int boardRowSize, int boardColSize){
+    for(int r = 0; r < boardRowSize; r++){
+        for(int c = 0; c < boardColSize; c++){
+            board[r * boardColSize + c] ? printf("X ") : printf(". ");
+        }
+        printf("\n");
+    }
 }
 
 int main(int argc, char const *argv[]){
