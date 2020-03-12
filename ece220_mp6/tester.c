@@ -110,8 +110,9 @@ int test_alive(int* board, int numRows, int numCols, int expected, int iteration
  * Helper function to printout a full board in Xs and .s
  */
 void print_board(int* board, int boardRowSize, int boardColSize){
-    for(int r = 0; r < boardRowSize; r++){
-        for(int c = 0; c < boardColSize; c++){
+    int r, c;
+    for(r = 0; r < boardRowSize; r++){
+        for(c = 0; c < boardColSize; c++){
             board[r * boardColSize + c] ? printf("X ") : printf(". ");
         }
         printf("\n");
