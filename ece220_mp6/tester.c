@@ -75,8 +75,9 @@ int test_update(int* golden_board, int* user_board, int numRows, int numCols, in
                 printf("Mismatched (row, column): (%d, %d)\n", r, c);
                 printf("Proper value: %d\n", golden_board[r*numCols+c]);
                 printf("Your value: %d\n\n", user_board[r*numCols+c]);
+                printf("Display full boards? (y/N): ");
                 char in;
-                scanf("Display full boards? (y/N): %c", &in);
+                scanf(" %c", &in);
                 if(in == 'y' || in == 'Y'){
                     printf("User board\n");
                     print_board(user_board, numRows, numCols);
