@@ -93,6 +93,7 @@ int main(int argc, char const *argv[]){
 		while(fscanf(fp, "%s", buffer) != EOF){
 			filename_t* new_top = (filename_t*) malloc(f_size);
 			strcpy(new_top->name, buffer);
+			new_top->next = top_ptr;
 			top_ptr = new_top;
 			file_count++;
 		}
