@@ -28,7 +28,7 @@ int test_row(const int val, const int i, const int sudoku[9][9], int gold_respon
 	
 	printf("Error in is_val_in_row function\n");
 	printf("Row: %d\n", i);
-	printf("Column: %d\n\n", j);
+	printf("Number: %d\n", val);
 	printf("Expected value: %d\n", gold_response);
 	printf("Your value: %d\n", check);
 	return 1;
@@ -46,8 +46,8 @@ int test_col(const int val, const int j, const int sudoku[9][9], int gold_respon
 	
 	
 	printf("Error in is_val_in_col function\n");
-	printf("Row: %d\n", i);
 	printf("Column: %d\n\n", j);
+	printf("Number: %d\n", val);
 	printf("Expected value: %d\n", gold_response);
 	printf("Your value: %d\n", check);
 	return 1;
@@ -67,8 +67,7 @@ int test_sect(const int val, const int sect, const int sudoku[9][9], int gold_re
 	  return 0;
 	
 	printf("Error in is_val_in_3x3_zone function\n");
-	printf("Row: %d\n", i);
-	printf("Column: %d\n\n", j);
+	printf("Grid Number: %d\n\n", sect);
 	printf("Expected value: %d\n", gold_response);
 	printf("Your value: %d\n", check);
 	return 1;
@@ -77,7 +76,8 @@ int test_sect(const int val, const int sect, const int sudoku[9][9], int gold_re
 
 int main(int argc, char const *argv[]){
 	//pulling files
-	filename = ("board%d", file_count);
+	char filename[20] = "board";
+	filename[5] = file_count + '0';
 	char buffer[50];
 	char board_dir[] = "./test_images/";
 	FILE* fp;
@@ -106,10 +106,9 @@ int main(int argc, char const *argv[]){
 		
 		//using mp7's parse function to create board
 		parse_sudoku(buffer, sudoku);	
-		
+		print_sudoku(sudoku);
+			
 		// Iterate through valid check functions
-		char* filename = top_ptr->name;
-		char board_dir[] = "./test_images/";
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
 		strcat(buffer, ".series");
@@ -122,15 +121,15 @@ int main(int argc, char const *argv[]){
 
 		printf("Testing is_val_in_row against %s\n", buffer);
 		if(row_ptr){
-			char garbage[];
+			char garbage[10];
 			int val, row, proper_out;
 		
 
-			fgets(garbage, sizeof(garbage), row_ptr)
+			fgets(garbage, sizeof(garbage), row_ptr);
 			while(fscanf(row_ptr, "%d, %d, %d\n", &row, &val, &proper_out) != EOF){
 			  int row_check = test_row(val, row, sudoku, proper_out);
 			  if(row_check)
-			  return 0;
+			    return 0;
 			}
 
 
@@ -144,12 +143,12 @@ int main(int argc, char const *argv[]){
 		FILE* col_ptr;
 		col_ptr = row_ptr;
 		
-		if(col_ptr){i
-			char garbage[];
+		if(col_ptr){
+			char garbage[10];
 			int val, col, proper_out;
 
 
-			fgets(garbage, sizeof(garbage), col_ptr)
+			fgets(garbage, sizeof(garbage), col_ptr);
 			while(fscanf(col_ptr, "%d, %d, %d\n", &col, &val, &proper_out) != EOF){
 			int col_check = test_col(val, col, sudoku, proper_out);
 			if(col_check)
@@ -168,11 +167,11 @@ int main(int argc, char const *argv[]){
 		sect_ptr = col_ptr;
 		
 		if(sect_ptr){
-			char garbage[];
+			char garbage[10];
 			int val, sect, proper_out;
 
 
-			fgets(garbage, sizeof(garbage), sect_ptr)
+			fgets(garbage, sizeof(garbage), sect_ptr);
 			while(fscanf(sect_ptr, "%d, %d, %d\n", &sect, &val, &proper_out) != EOF){
 			int sect_check; test_sect(val, sect, sudoku, proper_out);
 			if(sect_check)
@@ -184,10 +183,10 @@ int main(int argc, char const *argv[]){
 		  printf("Error opening %s.\nTerminating Program.", buffer);
 		  return 1;
 		}
-		correct++
+		correct++;
 		file_count++;
 		
 	}while(fp != NULL);
-}
+
 	return 0;
 }		
