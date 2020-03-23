@@ -75,9 +75,9 @@ int test_sect(const int val, const int sect, const int sudoku[9][9], int gold_re
 
 
 int main(int argc, char const *argv[]){
-	//pulling files
-	char filename[20] = "board";
-	filename[5] = file_count + '0';
+	//pulling test files
+	char filename[20];
+	sprintf(filename, "board%d", file_count);
 	char buffer[50];
 	char board_dir[] = "./test_images/";
 	FILE* fp;
@@ -98,17 +98,14 @@ int main(int argc, char const *argv[]){
 
 		//get board content
 		int sudoku[9][9];
-		filename[5] = file_count + '0';
-		strcpy(buffer, board_dir);
-		strcat(buffer, filename);
-		strcat(buffer, ".in");
 
-		fp = fopen(buffer, "r");
-		
+		printf("%s\n", buffer);		
 		//using mp7's parse function to create board
 		parse_sudoku(buffer, sudoku);	
 		print_sudoku(sudoku);
-			
+		
+
+
 		// Iterate through valid check functions
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
@@ -201,7 +198,14 @@ int main(int argc, char const *argv[]){
 		}
 		correct++;
 		file_count++;
+	
+	
+		sprintf(filename, "board%d", file_count);
+		strcpy(buffer, board_dir);
+		strcat(buffer, filename);
+		strcat(buffer, ".in");
 		
+		fp = fopen(buffer, "r");	
 	}while(fp != NULL);
 	
 	printf("is_val_in_zone functions valid\n");
