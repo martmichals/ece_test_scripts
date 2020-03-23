@@ -124,8 +124,9 @@ int main(int argc, char const *argv[]){
 		if(row_ptr){
 			char garbage[];
 			int val, row, proper_out;
-			//while(fscanf(row_ptr, "%s", garbage)
-			  //continue;
+		
+
+			fgets(garbage, sizeof(garbage), row_ptr)
 			while(fscanf(row_ptr, "%d, %d, %d\n", &row, &val, &proper_out) != EOF){
 			  int row_check = test_row(val, row, sudoku, proper_out);
 			  if(row_check)
@@ -146,8 +147,9 @@ int main(int argc, char const *argv[]){
 		if(col_ptr){i
 			char garbage[];
 			int val, col, proper_out;
-			//while(fscanf(col_ptr, "%s", garbage)
-			 // continue;
+
+
+			fgets(garbage, sizeof(garbage), col_ptr)
 			while(fscanf(col_ptr, "%d, %d, %d\n", &col, &val, &proper_out) != EOF){
 			int col_check = test_col(val, col, sudoku, proper_out);
 			if(col_check)
@@ -168,11 +170,9 @@ int main(int argc, char const *argv[]){
 		if(sect_ptr){
 			char garbage[];
 			int val, sect, proper_out;
-		/*	while(fscanf(sect_ptr, "%s", garbage)
-			  continue;
-			
-			not a valid way to skip string text, need to figure different way
-		 */
+
+
+			fgets(garbage, sizeof(garbage), sect_ptr)
 			while(fscanf(sect_ptr, "%d, %d, %d\n", &sect, &val, &proper_out) != EOF){
 			int sect_check; test_sect(val, sect, sudoku, proper_out);
 			if(sect_check)
