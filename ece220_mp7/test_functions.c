@@ -98,11 +98,7 @@ int main(int argc, char const *argv[]){
 
 		//get board content
 		int sudoku[9][9];
-		char filename[20] = "board";
 		filename[5] = file_count + '0';
-		char buffer[50];
-		char board_dir[] = "./test_images/";
-		FILE* fp;
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
 		strcat(buffer, ".in");
@@ -207,6 +203,7 @@ int main(int argc, char const *argv[]){
 		file_count++;
 		
 	}while(fp != NULL);
-
+	
+	printf("is_val_in_zone functions valid\n");
 	return 0;
 }		
