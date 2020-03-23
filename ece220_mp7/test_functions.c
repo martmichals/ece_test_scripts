@@ -98,6 +98,11 @@ int main(int argc, char const *argv[]){
 
 		//get board content
 		int sudoku[9][9];
+		char filename[20] = "board";
+		filename[5] = file_count + '0';
+		char buffer[50];
+		char board_dir[] = "./test_images/";
+		FILE* fp;
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
 		strcat(buffer, ".in");
@@ -121,16 +126,19 @@ int main(int argc, char const *argv[]){
 
 		printf("Testing is_val_in_row against %s\n", buffer);
 		if(row_ptr){
-			char garbage[10];
+			char garbage[100];
 			int val, row, proper_out;
 		
 
 			fgets(garbage, sizeof(garbage), row_ptr);
-			while(fscanf(row_ptr, "%d, %d, %d\n", &row, &val, &proper_out) != EOF){
+			while(fscanf(row_ptr, "%d %d %d\n", &row, &val, &proper_out) != 0){
 			  int row_check = test_row(val, row, sudoku, proper_out);
-			  if(row_check)
-			    return 0;
+			  if(row_check){
+			    printf("is_val_in_row failed test %d.\nTerminating Program", file_count);
+			    return 1;
+			  }
 			}
+			printf("is_val_in_row passed test %d\n", file_count);
 
 
 		}else{
@@ -143,17 +151,24 @@ int main(int argc, char const *argv[]){
 		FILE* col_ptr;
 		col_ptr = row_ptr;
 		
+		
+		printf("Testing is_val_in_col against %s\n", buffer);
 		if(col_ptr){
-			char garbage[10];
+			char garbage[100];
 			int val, col, proper_out;
 
 
 			fgets(garbage, sizeof(garbage), col_ptr);
-			while(fscanf(col_ptr, "%d, %d, %d\n", &col, &val, &proper_out) != EOF){
+			while(fscanf(col_ptr, "%d %d %d\n", &col, &val, &proper_out) != 0){
 			int col_check = test_col(val, col, sudoku, proper_out);
-			if(col_check)
-			  return 0;
+			
+			if(col_check){
+			    printf("is_val_in_col failed test %d.\nTerminating Program", file_count);
+			    return 1;
+			  }
 			}
+			printf("is_val_in_col passed test %d\n", file_count);
+
 
 
 		}else{
@@ -166,18 +181,23 @@ int main(int argc, char const *argv[]){
 		FILE* sect_ptr;
 		sect_ptr = col_ptr;
 		
+		
+
+		printf("Testing is_val_in_3x3_zone against %s\n", buffer);
 		if(sect_ptr){
-			char garbage[10];
+			char garbage[100];
 			int val, sect, proper_out;
 
 
 			fgets(garbage, sizeof(garbage), sect_ptr);
-			while(fscanf(sect_ptr, "%d, %d, %d\n", &sect, &val, &proper_out) != EOF){
+			while(fscanf(sect_ptr, "%d %d %d\n", &sect, &val, &proper_out) != EOF){
 			int sect_check; test_sect(val, sect, sudoku, proper_out);
-			if(sect_check)
-			  return 0;
+			if(sect_check){
+			    printf("is_val_in_3x3_zone failed test %d.\nTerminating Program.", file_count);
+			    return 1;
+			  }
 			}
-
+			printf("is_val_in_3x3_zone passed test %d\n", file_count);
 
 		}else{
 		  printf("Error opening %s.\nTerminating Program.", buffer);
