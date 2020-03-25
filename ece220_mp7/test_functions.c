@@ -76,9 +76,9 @@ int test_sect(const int val, const int sect, const int sudoku[9][9], int gold_re
 
 int main(int argc, char const *argv[]){
 	//pulling test files
-	char filename[20];
+	char filename[10];
 	sprintf(filename, "board%d", file_count);
-	char buffer[50];
+	char buffer[100];
 	char board_dir[] = "./test_images/";
 	FILE* fp;
 	strcpy(buffer, board_dir);
@@ -89,7 +89,7 @@ int main(int argc, char const *argv[]){
 	if(fp = NULL){
 	  printf("Error opening input file.\nTerminating Program");
 	  return 1;
-	}
+	}		
 
 	// Iteration over each file
 	int correct = 0;
@@ -98,10 +98,9 @@ int main(int argc, char const *argv[]){
 
 		//get board content
 		int sudoku[9][9];
-
-		printf("%s\n", buffer);		
+	
 		//using mp7's parse function to create board
-		parse_sudoku(buffer, sudoku);	
+		parse_sudoku(buffer, sudoku);
 		print_sudoku(sudoku);
 		
 
@@ -142,9 +141,8 @@ int main(int argc, char const *argv[]){
 		
 		//checking valid column function
 		FILE* col_ptr;
-		col_ptr = row_ptr;
-		
-		
+		col_ptr = row_ptr;	
+			
 		printf("Testing is_val_in_col against %s\n", buffer);
 		if(col_ptr){
 			char garbage[100];
@@ -174,7 +172,6 @@ int main(int argc, char const *argv[]){
 		FILE* sect_ptr;
 		sect_ptr = col_ptr;
 		
-		
 
 		printf("Testing is_val_in_3x3_zone against %s\n", buffer);
 		if(sect_ptr){
@@ -196,17 +193,20 @@ int main(int argc, char const *argv[]){
 		  printf("Error opening %s.\nTerminating Program.", buffer);
 		  return 1;
 		}
+		
+		fclose(sect_ptr);
+		
 		correct++;
 		file_count++;
-	
-	
+		
 		sprintf(filename, "board%d", file_count);
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
 		strcat(buffer, ".in");
-		
+		printf("%s %d\n", buffer, file_count);	
 		fp = fopen(buffer, "r");	
 	}while(fp != NULL);
+	fclose(fp);
 	
 	printf("is_val_in_zone functions valid\n");
 	return 0;
