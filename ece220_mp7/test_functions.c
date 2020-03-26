@@ -203,10 +203,9 @@ int main(int argc, char const *argv[]){
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
 		strcat(buffer, ".in");
-		printf("%s %d\n", buffer, file_count);	
 		fp = fopen(buffer, "r");	
 	}while(fp != NULL);
-	fclose(fp);
+	
 	
 	printf("is_val_in_zone functions valid\n");
 	return 0;
