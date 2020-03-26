@@ -12,6 +12,9 @@ int test_row(const int val, const int i, const int sudoku[9][9], int gold_respon
 int test_col(const int val, const int j, const int sudoku[9][9], int gold_response);
 int test_sect(const int val, const int i, const int j, const int sudoku[9][9], int gold_response);
 
+int test_sol(const char fpath, const int sudoku[9][9]);
+
+
 
 int file_count = 1;
 
@@ -72,6 +75,31 @@ int test_sect(const int val, const int sect, const int sudoku[9][9], int gold_re
 	printf("Your value: %d\n", check);
 	return 1;
 }
+
+// function to test solve_sudoku function
+// if return 1, output incorrect
+// if return 0, output correct
+int test_sol(char fpath[], int sudoku[9][9], int sudoku_gold[9][9]){
+	int i;
+	int j;
+	parse_sudoku(fpath, sudoku_gold);
+	solve_sudoku(sudoku);
+
+	for(i=0; i<9; i++){
+		for(j=0; j<9;j++){
+			if(sudoku[i][j] != sudoku_gold[i][j]){
+			  printf("Board incorrect at row %d, column %d\n", i, j);
+			  return 1;
+			}
+		}
+	}
+	return 0;
+	
+	
+
+}
+
+
 
 
 int main(int argc, char const *argv[]){
@@ -196,17 +224,46 @@ int main(int argc, char const *argv[]){
 		
 		fclose(sect_ptr);
 		
+		//check with solution board
+		strcpy(buffer, board_dir);
+		strcat(buffer, filename);
+		strcat(buffer, ".sol");
+		
+		int sudoku_sol[9][9];
+		int sol_check = test_sol(buffer, sudoku, sudoku_sol);
+		
+		if(sol_check){
+		  printf("solve_sudoku function failed\n");
+		  printf("Solution board:\n");
+		  print_sudoku(sudoku_sol);
+		  printf("Your Board:\n");
+		  print_sudoku(sudoku);
+		  return 1;
+		}
+		else{
+		  printf("solve_sudoku function passed test %d\n", file_count);
+		  printf("Solution:\n");
+		  print_sudoku(sudoku);
+		}
+			
+		
+		//update conditions
 		correct++;
 		file_count++;
-		
+		 
+		//i[date fo;e pointer to check if NULL
 		sprintf(filename, "board%d", file_count);
 		strcpy(buffer, board_dir);
 		strcat(buffer, filename);
 		strcat(buffer, ".in");
-		fp = fopen(buffer, "r");	
+		fp = fopen(buffer, "r")
+
+		;	
 	}while(fp != NULL);
 	
 	
-	printf("is_val_in_zone functions valid\n");
+	printf("is_val_in_zone functions valid for all cases\n");
+	printf("solve_sudoku function valid for all cases\n");
+
 	return 0;
 }		
