@@ -2,7 +2,7 @@
 
 # Change this if not running on EWS
 netid="$(whoami)"
-term="ECE220SP20"
+term="ECE220FA20"
 
 # Start with the script's disclaimer
 printf '\033[8;40;100t'
